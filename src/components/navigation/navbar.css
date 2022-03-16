@@ -1,0 +1,116 @@
+#nav-bar {
+    width: 300px;
+    height: 100vh;
+    font-family: 'Font-Regular';
+    text-align: center;
+    background-color: #124966;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #F1F2F5;
+    font-size: 20px;
+}
+
+#logo-container {
+    margin: 50px auto;
+}
+
+#logo {
+    height: 125px;
+    margin: 10px;
+}
+
+#logo-container p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+#icons {
+    align-items: center;
+    justify-content: right;
+}
+
+#return-up {
+    height: 50px;
+    color: #E6D4D4;
+    opacity: 0;
+    transition: all 0.125s;
+    margin: 25px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px
+}
+
+#desktopNav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navbutton {
+    border: none;
+    background-color: inherit;
+    color: #F1F2F5;
+    font-size: 20px;
+    display: block;
+    padding: 5px 30px;
+    text-decoration: none;
+    width: max-content;
+}
+
+.navbutton:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.navbutton::after {
+    content: '';
+    margin-top: 10px;
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width .3s;
+}
+
+.navbutton:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.icon {
+    display: none;
+    height: 40px;
+    margin: 0 10px 0 0;
+    grid-area: return;
+    justify-self: end;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: right;
+    padding: 5px 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    line-height: 2px;
+}
+
+#phoneIcon{
+    height: 12px;
+    padding: 0px 10px 0px 0px;
+}
+
+#phoneNum {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#mobileNav {
+    display: none;
+}
+
+#mobileNav .navbutton {
+    display: none;
+}

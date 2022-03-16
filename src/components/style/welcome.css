@@ -1,0 +1,83 @@
+.welcome-page {
+    margin-left: 300px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: "Font-Regular";
+    color: #124966;
+}
+
+#buildingLogo {
+    width: 35vw;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#contactInfo {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#contactInfo h2 {
+    font-family: "Font-Italic";
+    text-align: center;
+}
+
+#infoBox {
+    padding: 10px 20px;
+    border: solid 5px #124966;
+    font-size: 18px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#infoBox #phoneIcon {
+    height: 20px;
+}
+
+#infoBox p {
+    margin: 5px 0px;
+}
+
+#infoBox #phoneNum {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#infoBox #hours {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#infoBox #map {
+    width: 15vw;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#infoBox #carIcon {
+    height: 50px;
+    padding: 0px 20px;
+}
+
+#infoBox a {
+    padding: 5px 20px;
+    background-color: #124966;
+    color: #F1F2F5;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#info2 {
+    text-align: center;
+}
+
+#info2 p {
+    text-align: left;
+}
