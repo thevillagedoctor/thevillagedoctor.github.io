@@ -24,6 +24,12 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 		super(props)
 		this.returnUp = this.returnUp.bind(this);
 		this.burgerMenu = this.burgerMenu.bind(this);
+		
+		window.scroll({
+				top: 0,
+				left: 0,
+				behavior: 'smooth'
+			})
 	}
 
 	returnUp() {
@@ -67,13 +73,15 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 
 		return (
 			<div id="nav-bar">
-				<div id="logo-container">
-					<img id="logo" src="./images/Logo.png" alt="Village Doctor Logo"/>
-					<div>
-						<p>THE VILLAGE DOCTOR</p>
-						<p>AT CHERRY HILL</p>
+				<Link to="/"> 
+					<div id="logo-container">
+						<img id="logo" src="./images/Logo.png" alt="Village Doctor Logo"/>
+						<div>
+							<p>THE VILLAGE DOCTOR</p>
+							<p>AT CHERRY HILL</p>
+						</div>
 					</div>
-				</div>
+				</Link>
 				<nav id="desktopNav">{buttons}</nav>
 				<nav id="mobileNav">{buttons}</nav>
 				<div id="icons">
@@ -81,7 +89,7 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 					<img id="return-up-mobile" onClick={this.returnUp} src="./images/return-up-arrow-white.png" alt="Up Arrow" />
 					<img className="icon" onClick={this.burgerMenu} src="./images/bars-solid.png" alt="Menu Bar" />
 				</div>
-				<div className="footer">
+				<div id="footer">
 					<div>
 						<p>Kenneth J. Grimm, MD, MS, FAAFP</p>
 						<p>Cherry Hill Village Family Medicine</p>

@@ -115,7 +115,7 @@
     grid-row: -2;
     /* transform: rotate(5deg); */
     /* box-shadow: 0px 0px 20px 10px #63686b; */
-    border: solid 2px #124966;
+    border: groove 5px #00a2d7;
 }
 
 #image2 {
@@ -123,7 +123,7 @@
     grid-row: -1;
     /* transform: rotate(-5deg); */
     /* box-shadow: 0px 0px 20px 10px #63686b; */
-    border: solid 2px #124966;
+    border: groove 5px #00a2d7;
 }
 
 .infoParagraph {
