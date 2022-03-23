@@ -3,7 +3,7 @@
     height: 100vh;
     font-family: 'Font-Regular';
     text-align: center;
-    background-color: #124966;
+    background-color: #00a2d7;
     position: fixed;
     top: 0;
     left: 0;
@@ -13,6 +13,7 @@
 
 #logo-container {
     margin: 50px auto;
+    font-family: 'Font-Bold';
 }
 
 #logo {
@@ -41,6 +42,19 @@
     right: 0px
 }
 
+#return-up-mobile {
+    height: 50px;
+    color: #E6D4D4;
+    opacity: 0;
+    transition: all 0.125s;
+    margin: 25px 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    z-index: 10;
+}
+
 #desktopNav {
     display: flex;
     flex-direction: column;
@@ -59,7 +73,7 @@
 }
 
 .navbutton:hover {
-    color: #000000;
+    color: #124966;
     cursor: pointer;
 }
 
@@ -69,19 +83,19 @@
     display: block;
     width: 0;
     height: 2px;
-    background-color: #000000;
+    background-color: #124966;
     transition: width .3s;
 }
 
 .navbutton:hover::after {
     width: 100%;
     transition: width .3s;
-}
+} 
 
 .icon {
     display: none;
     height: 40px;
-    margin: 0 10px 0 0;
+    margin: 0 20px 0 0;
     grid-area: return;
     justify-self: end;
 }

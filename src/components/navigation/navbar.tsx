@@ -6,8 +6,10 @@ import './navbar-mobile.css';
 window.addEventListener('scroll', event => {
 	if (window.pageYOffset > 50) {
 		document.getElementById('return-up').setAttribute("style", "opacity: 100");
+		document.getElementById('return-up-mobile').setAttribute("style", "opacity: 100");
 	} else if (window.pageYOffset <= 50) {
 		document.getElementById('return-up').setAttribute("style", "opacity: 0");
+		document.getElementById('return-up-mobile').setAttribute("style", "opacity: 0");
 	}
 });
 
@@ -36,7 +38,7 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 
 
 	burgerMenu() {
-		if (window.innerWidth <= 1000) {
+		if (window.innerWidth <= 1250) {
 			if (navMenuVisible === true) {
 				document.getElementById('mobileNav').setAttribute("style", "display: none");
 				navMenuVisible = false;
@@ -76,6 +78,7 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 				<nav id="mobileNav">{buttons}</nav>
 				<div id="icons">
 					<img id="return-up" onClick={this.returnUp} src="./images/return-up-arrow.png" alt="Up Arrow" />
+					<img id="return-up-mobile" onClick={this.returnUp} src="./images/return-up-arrow-white.png" alt="Up Arrow" />
 					<img className="icon" onClick={this.burgerMenu} src="./images/bars-solid.png" alt="Menu Bar" />
 				</div>
 				<div className="footer">

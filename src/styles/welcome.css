@@ -1,0 +1,140 @@
+.welcome-page {
+    margin: 40px 50px 0 300px;
+    width: calc(100vw - 350px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    font-family: "Font-Regular";
+    color: #124966;
+}
+
+.welcome-page #buildingLogo {
+    width: 35vw;
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 60px;
+}
+
+#contactInfo {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#contactInfo h2 {
+    font-family: "Font-Italic";
+    font-size: 30px;
+    display: inline-block;
+}
+
+#infoBox {
+    padding: 10px 20px;
+    border: solid 5px #124966;
+    font-size: 14px;
+    text-align: left;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#infoBox #phoneIcon {
+    height: 20px;
+    width: auto;
+    margin: 0;
+}
+
+#infoBox p {
+    margin: 5px 0px;
+}
+
+#infoBox #phoneNum {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#infoBox #hours {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#infoBox #map {
+    width: 15vw;
+    margin: 20px auto;
+    text-align: center;
+    border: solid 2px #124966;
+    border-radius: 0px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#infoBox #carIcon {
+    height: 50px;
+    width: auto;
+    padding: 0px 20px;
+    margin: 0;
+    display: inline;
+}
+
+#infoBox .button {
+    padding: 5px 20px;
+    background-color: #124966;
+    color: #F1F2F5;
+    border-radius: 5px;
+    display: inline;
+    text-decoration: none;
+    margin: auto 0px;
+}
+
+#info2 {
+    text-align: center;
+}
+
+#info2 p {
+    text-align: left;
+}
+
+#infoP1 {
+    grid-column: 1;
+    grid-row: -2;
+}
+
+#infoP2 {
+    grid-column: 2;
+    grid-row: -1;
+}
+
+#image1 {
+    grid-column: 2;
+    grid-row: -2;
+    /* transform: rotate(5deg); */
+    /* box-shadow: 0px 0px 20px 10px #63686b; */
+    border: solid 2px #124966;
+}
+
+#image2 {
+    grid-column: 1;
+    grid-row: -1;
+    /* transform: rotate(-5deg); */
+    /* box-shadow: 0px 0px 20px 10px #63686b; */
+    border: solid 2px #124966;
+}
+
+.infoParagraph {
+    width: 80%;
+    margin: 80px auto 80px auto;
+    font-size: 20px;
+    color: #124966;
+}
+
+.welcome-page img {
+    width: 75%;
+    border-radius: 10px;
+    margin: 80px auto 80px auto;
+}

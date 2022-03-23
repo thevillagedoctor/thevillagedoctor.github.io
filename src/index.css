@@ -19,6 +19,7 @@ body,
   margin: 0;
   padding: 0;
   background-color: #F1F2F5;
+  max-width: 100%;
 }
 
 /* include border and padding in element width and height */
