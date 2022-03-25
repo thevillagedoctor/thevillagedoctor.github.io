@@ -1,6 +1,6 @@
 .about-page {
-    margin: 40px 0 0 300px;
-    width: calc(100vw - 350px);
+    margin: 40px 0 0 250px;
+    width: calc(100vw - 300px);
     text-align: center;
     font-family: "Font-Regular";
     color: #124966;
@@ -10,10 +10,9 @@
     width: 35vw;
     float: right;
     margin: 50px 30px 30px 30px;
-    /* border: solid 2px #124966; */
 }
 
-.infoBody {
+.about-page .infoBody {
     text-align: left;
     padding: 30px 20px 20px 75px;
     width: 95%;
@@ -21,7 +20,7 @@
 
 .about-page h1 {
     text-align: center;
-    font-family: "Font-Bold";
+    font-family: "Trajan-Pro";
     margin: 100px 0 0 0;
     font-size: 60px;
 }
@@ -42,7 +41,7 @@
 
 .imageGalery img {
     border-radius: 10px;
-    border: groove 5px #00a2d7;
+    border: inset 5px #00a2d7;
 }
 
 figure {

@@ -1,6 +1,6 @@
 .welcome-page {
-    margin: 40px 50px 0 300px;
-    width: calc(100vw - 350px);
+    margin: 40px 50px 0 250px;
+    width: calc(100vw - 300px);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
@@ -14,6 +14,7 @@
     width: 35vw;
     grid-column: 1;
     grid-row: 1;
+    margin-top: 0px;
     margin-bottom: 60px;
 }
 
@@ -25,11 +26,12 @@
 
 #contactInfo h2 {
     font-family: "Font-Italic";
-    font-size: 30px;
+    font-size: 35px;
     display: inline-block;
+    margin: 10px 5px;
 }
 
-#infoBox {
+.welcome-page .infoBox {
     padding: 10px 20px;
     border: solid 5px #124966;
     font-size: 14px;
@@ -40,27 +42,27 @@
     grid-template-rows: 1fr;
 }
 
-#infoBox #phoneIcon {
+.welcome-page .infoBox #phoneIcon {
     height: 20px;
     width: auto;
     margin: 0;
 }
 
-#infoBox p {
+.welcome-page .infoBox p {
     margin: 5px 0px;
 }
 
-#infoBox #phoneNum {
+.welcome-page .infoBox #phoneNum {
     margin-top: 30px;
     margin-bottom: 0px;
 }
 
-#infoBox #hours {
+.welcome-page .infoBox #hours {
     margin-top: 30px;
     margin-bottom: 0px;
 }
 
-#infoBox #map {
+.welcome-page .infoBox #map {
     width: 15vw;
     margin: 20px auto;
     text-align: center;
@@ -74,7 +76,7 @@
     align-content: center;
 }
 
-#infoBox #carIcon {
+.welcome-page .infoBox #carIcon {
     height: 50px;
     width: auto;
     padding: 0px 20px;
@@ -82,7 +84,7 @@
     display: inline;
 }
 
-#infoBox .button {
+.welcome-page .infoBox .button {
     padding: 5px 20px;
     background-color: #124966;
     color: #F1F2F5;
@@ -115,7 +117,7 @@
     grid-row: -2;
     /* transform: rotate(5deg); */
     /* box-shadow: 0px 0px 20px 10px #63686b; */
-    border: groove 5px #00a2d7;
+    border: inset 5px #00a2d7;
 }
 
 #image2 {
@@ -123,7 +125,7 @@
     grid-row: -1;
     /* transform: rotate(-5deg); */
     /* box-shadow: 0px 0px 20px 10px #63686b; */
-    border: groove 5px #00a2d7;
+    border: inset 5px #00a2d7;
 }
 
 .infoParagraph {
@@ -131,6 +133,10 @@
     margin: 80px auto 80px auto;
     font-size: 20px;
     color: #124966;
+}
+
+.infoParagraph h1 {
+    font-family: 'Trajan-Pro';
 }
 
 .welcome-page img {

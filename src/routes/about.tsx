@@ -10,7 +10,7 @@ export function About() {
 			<div>
 				<NavBar/>
 				<div className="about-page">
-					<h1>ABOUT THE PRACTICE</h1>
+					<h1>About the Practice</h1>
 					<img id="buildingLogo" src="./images/BuildingLogo.jpg" alt="Building"/>
 					<div className="infoBody">
 						<p>The Village Doctor at Cherry Hill was established in 2012 by Dr. Ken Grimm. 

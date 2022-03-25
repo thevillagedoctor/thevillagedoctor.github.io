@@ -10,10 +10,8 @@
     width: 300px;
     float: right;
     margin: 0 0 30px 30px;
-    border: groove 5px #00a2d7;
+    border: inset 5px #00a2d7;
     border-radius: 10px;
-    /* box-shadow: 0px 0px 30px 10px #00a2d7; */
-    /* border: solid 2px #124966; */
 }
 
 .provider {
@@ -24,13 +22,13 @@
 
 .providers-page h1 {
     text-align: center;
-    font-family: "Font-Bold";
+    font-family: "Trajan-Pro";
     padding: 75px 0 50px 0;
     font-size: 60px;
 }
 
 .providers-page h2 {
-    font-family: "Font-Bold";
+    font-family: "Trajan-Pro";
     font-size: 40px;
     text-align: left;
 }

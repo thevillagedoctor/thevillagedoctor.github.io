@@ -1,46 +1,43 @@
 @media screen and (max-width: 1250px) {
-    .providers-page { 
+    .insurance-page { 
         margin: 40px auto;
         width: 100vw;
     }
     
-    .providers-page h1 {
+    .insurance-page h1 {
         margin: 150px 0 0 0;
         padding-top: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .providers-page {
+    .insurance-page {
         padding-bottom: 100px;
     }
 
-    .providers-page img {
-        width: 70%;
-        max-width: 400px;
-        float: none;
-        margin: 20px auto;
-    }
-
-    .providers-page h1 {
+    .insurance-page h1 {
         margin: 100px 0 0 0;
         padding: 0;
         font-size: 40px;
     }
 
-    .providers-page h2 {
+    .insurance-page h2 {
         font-size: 30px;
-        margin-top: 0;
+        margin-top: 50px;
     }
 
-    .providers-page p {
+    .insurance-page p {
         font-size: 14px;
         margin: 0 0 15px 0;
     }
 
-    .provider {
+    .infoBody {
         padding: 30px 0 30px 0;
         margin: 0 auto;
         width: 90%;
+    }
+
+    .insurance-page ul {
+        font-size: 14px; 
     }
 }

@@ -9,7 +9,7 @@ export function Providers() {
     <div>
 		  <NavBar/>
       <div className="providers-page">
-        <h1>MEET OUR PROVIDERS</h1>
+        <h1>Meet our Providers</h1>
           <div className="provider">
             <img src="./images/dr-grimm.jpg" alt="Dr. Grimm"/>
             <h2>Dr. Grimm</h2>

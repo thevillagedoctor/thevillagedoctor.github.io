@@ -1,0 +1,84 @@
+.patients-page {
+    margin: 40px 0 100px 250px;
+    width: calc(100vw - 300px);
+    text-align: center;
+    font-family: "Font-Regular";
+    color: #124966;
+}
+
+.infoBody {
+    text-align: center;
+    padding: 0 20px 20px 75px;
+    width: 95%;
+}
+
+.patients-page h1 {
+    text-align: center;
+    font-family: "Trajan-Pro";
+    margin: 100px 0 0 0;
+    font-size: 60px;
+}
+
+.patients-page h2 {
+    font-family: "Trajan-Pro";
+    font-size: 40px;
+    text-align: left;
+    margin: 60px 0 30px 0;
+}
+
+.patients-page p {
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    color: #124966;
+    text-align: left;
+}
+
+.patients-page .italics {
+    font-family: 'Font-Italic';
+    text-align: center;
+}
+
+.patients-page .button {
+    display: block;
+    width: max-content;
+    padding: 10px 20px;
+    background-color: #124966;
+    color: #F1F2F5;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Trajan-Pro";
+    margin: 60px auto;
+}
+
+.patients-page .infoBox{
+    float: right;
+    width: 400px;
+    padding: 10px 20px;
+    border: solid 5px #124966;
+    font-size: 14px;
+    text-align: left;
+    height: 360px;
+    margin: 10px 0 30px 30px;
+}
+
+.patients-page .infoBox p {
+    margin: 5px 0px;
+}
+
+.patients-page .infoBox #phoneNumber {
+    margin: 5px 0px;
+    display: inline-block;
+}
+
+.patients-page .infoBox #phoneIcon {
+    height: 20px;
+    width: auto;
+    margin: 0;
+}
+
+.patients-page .infoBox #hours {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}

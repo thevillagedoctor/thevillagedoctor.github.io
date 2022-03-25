@@ -1,46 +1,48 @@
 @media screen and (max-width: 1250px) {
-    .providers-page { 
+    .patients-page { 
         margin: 40px auto;
         width: 100vw;
+        padding-bottom: 100px;
     }
     
-    .providers-page h1 {
+    .patients-page h1 {
         margin: 150px 0 0 0;
-        padding-top: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .providers-page {
-        padding-bottom: 100px;
-    }
-
-    .providers-page img {
-        width: 70%;
+    
+    .patients-page .infoBox {
+        width: 90%;
         max-width: 400px;
+        height: 300px;
         float: none;
         margin: 20px auto;
     }
 
-    .providers-page h1 {
+    .patients-page h1 {
         margin: 100px 0 0 0;
-        padding: 0;
         font-size: 40px;
     }
 
-    .providers-page h2 {
+    .patients-page h2 {
         font-size: 30px;
         margin-top: 0;
     }
 
-    .providers-page p {
+    .patients-page p {
         font-size: 14px;
-        margin: 0 0 15px 0;
     }
 
-    .provider {
-        padding: 30px 0 30px 0;
+    .infoBody {
+        text-align: left;
+        padding: 30px 0 20px 0;
         margin: 0 auto;
         width: 90%;
+    }
+
+    .patients-page .button {
+        width: 290px;
+        font-size: 18px;
     }
 }

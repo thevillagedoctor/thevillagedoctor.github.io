@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1250px) {   
+@media screen and (max-width: 1250px) {   
     #nav-bar {
         height: 100px;
         width: 100vw;
@@ -46,11 +46,30 @@
         padding: 5px 20px;
     }
 
+    #mobileNav .navbutton:hover {
+        color: #001f29;
+    }
+
+    #mobileNav .navbutton::after {
+        content: '';
+        margin-top: 5px;
+        display: block;
+        width: 0;
+        height: 2px;
+        background-color: #001f29;
+        transition: width .3s;
+    }
+
+    #mobileNav .navbutton:hover::after {
+        width: 100%;
+        transition: width .3s;
+    } 
+
     #footer {
         position: fixed;
         bottom: 0;
         width: 100vw;
-        height: 100px;
+        height: 90px;
         background-color: #00a2d7;
         text-align: center;
     }
@@ -66,11 +85,11 @@
 
 }
 
-@media only screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) { 
     #nav-bar {
         height: 75px;
     }
-
+ 
     #mobileNav {
         top: 75px;
     }
@@ -81,6 +100,10 @@
 
     #logo-container p {
         font-size: 13px;
+    }
+
+    .icon {
+        height: 40px;
     }
 
 }

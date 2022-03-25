@@ -77,8 +77,8 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 					<div id="logo-container">
 						<img id="logo" src="./images/Logo.png" alt="Village Doctor Logo"/>
 						<div>
-							<p>THE VILLAGE DOCTOR</p>
-							<p>AT CHERRY HILL</p>
+							<p>The Village Doctor</p>
+							<p>at Cherry Hill</p>
 						</div>
 					</div>
 				</Link>

@@ -13,6 +13,11 @@
   src: url('../public/LibreBaskerville-Regular.ttf')
 }
 
+@font-face {
+  font-family: 'Trajan-Pro';
+  src: url('../public/TrajanPro-Bold.otf')
+}
+
 html,
 body,
 #root {

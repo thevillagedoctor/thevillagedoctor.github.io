@@ -12,7 +12,7 @@ export function Welcome() {
 				<div id="contactInfo">
 					<h2>Evidence-Based Medicine...</h2>
 					<h2>Old-Fashioned Care</h2>
-					<div id="infoBox">
+					<div className="infoBox">
 						<div id="info1">
 							<p>Kenneth J. Grimm MD, MS, FAAFP</p>
 							<p>Cherry Hill Village Family Medicine</p>
@@ -40,9 +40,9 @@ export function Welcome() {
 					</div>
 				</div>
 				<div className="infoParagraph" id="infoP1">
-					<h1>WELCOME...</h1>
+					<h1>Welcome...</h1>
 					<p>
-					Welcome to The Village Doctor at Cherry Hill, the Family Practice of Dr. Ken Grimm. 
+						Welcome to The Village Doctor at Cherry Hill, the Family Practice of Dr. Ken Grimm. 
 						We specialize in offering modern medicine and old-fashioned care to our patients of all ages. 
 						We are very happy that you have visited us here on the web. Feel free to look around. 
 						We are sure you will be happy with what you find, and we look forward to welcoming you to the practice in person soon!
@@ -55,7 +55,7 @@ export function Welcome() {
 				<img id="image1" src="./images/reception.jpg" alt="Reception Desk"/>
 				<img id="image2" src="./images/waitingroom.jpg" alt="Waiting Room"/>
 				<div className="infoParagraph" id="infoP2">
-					<h1>MAKE YOURSELF AT HOME</h1>
+					<h1>Make Yourself at Home</h1>
 					<p>
 					After signing in at the Reception Desk please make yourself comfortable in our waiting room.
 					There is a children's area where the little ones are welcome to read, 
