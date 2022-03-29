@@ -14,8 +14,8 @@
 
 .patients-page h1 {
     text-align: center;
-    font-family: "Trajan-Pro";
-    margin: 100px 0 0 0;
+    font-family: "Trajan-Pro"; 
+    margin: 100px 0 50px 0;
     font-size: 60px;
 }
 
@@ -50,7 +50,7 @@
     text-align: center;
     font-family: "Trajan-Pro";
     margin: 60px auto;
-}
+}  
 
 .patients-page .infoBox{
     float: right;

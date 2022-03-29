@@ -21,7 +21,7 @@
 #contactInfo {
     text-align: center;
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 1; 
 }
 
 #contactInfo h2 {
@@ -50,7 +50,7 @@
 
 .welcome-page .infoBox p {
     margin: 5px 0px;
-}
+}  
 
 .welcome-page .infoBox #phoneNum {
     margin-top: 30px;
