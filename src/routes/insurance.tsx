@@ -6,7 +6,6 @@ import 'styles/insurance-mobile.css';
 export function Insurance() {
 	return (
 		<div>
-			<NavBar/>
 			<div className="insurance-page">
 			<h1>Insurance Information</h1>
 				<div className="infoBody">

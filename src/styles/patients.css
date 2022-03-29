@@ -67,15 +67,24 @@
     margin: 5px 0px;
 }
 
-.patients-page .infoBox #phoneNumber {
+.patients-page #phoneNum {
     margin: 5px 0px;
     display: inline-block;
+}
+
+.patients-page #phoneNum a{
+    color: #124966;
+}
+
+.patients-page #phoneNum a:visited{
+    color: #124966;
 }
 
 .patients-page .infoBox #phoneIcon {
     height: 20px;
     width: auto;
     margin: 0;
+    display: inline-block;
 }
 
 .patients-page .infoBox #hours {

@@ -50,3 +50,12 @@ figure {
     font-family: 'Font-Italic'
 }
 
+.about-page a {
+    color: #00a2d7;
+}
+
+.about-page a:hover {
+    font-family: "Font-Italic";
+    letter-spacing: 1.8px;
+}
+

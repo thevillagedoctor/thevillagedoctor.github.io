@@ -56,6 +56,15 @@
 .contact-page .infoBox #phoneNum {
     margin-top: 30px;
     margin-bottom: 0px;
+    display: inline-block;
+}
+
+.contact-page .infoBox #phoneNum a {
+    color: #124966
+}
+
+.contact-page .infoBox #phoneNum a:visited {
+    color: #124966
 }
 
 .contact-page .infoBox #hours {

@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavBar } from 'components';
 import 'styles/resources.css';
 import 'styles/resources-mobile.css';
 
@@ -8,7 +7,6 @@ import 'styles/resources-mobile.css';
 export function Resources() {
 		return(
 			<div>
-				<NavBar/>
 				<div className="resource-page">
 					<h1>Resources</h1>
 					<div className="infoBody">

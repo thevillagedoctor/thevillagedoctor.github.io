@@ -126,17 +126,33 @@ a:visited {
     padding: 0px 10px 0px 0px;
 }
 
-#phoneNum {
+#nav-bar #phoneNum {
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
-#mobileNav {
+#nav-bar #phoneNum a {
+    color: #F1F2F5
+}
+
+#nav-bar #phoneNum a:visited {
+    color: #F1F2F5;
+} 
+
+#mobileNavfalse {
     display: none;
 }
 
-#mobileNav .navbutton {
+#mobileNavfalse .navbutton{
+    display: none;
+}
+
+#mobileNavtrue {
+    display: none;
+}
+
+#mobileNavtrue .navbutton {
     display: none;
 }
 

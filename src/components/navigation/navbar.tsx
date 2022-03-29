@@ -13,50 +13,42 @@ window.addEventListener('scroll', event => {
 	}
 });
 
-type NavBarState = {
-	menuVisible: boolean,
+
+type navBarProps = {
+	navMenuVis: boolean,
+	mobileMenuCallback: Function,
 }
 
-let navMenuVisible: boolean = false;
-
-export default class NavBar extends React.Component<{}, NavBarState> {
-	constructor(props: object) {
+export default class NavBar extends React.Component<navBarProps, {}> {
+	constructor(props) {
 		super(props)
 		this.returnUp = this.returnUp.bind(this);
 		this.burgerMenu = this.burgerMenu.bind(this);
-		
+
+		console.log('the window should scroll here!')
+	}
+
+	returnUp() {
 		window.scroll({
 				top: 0,
 				left: 0,
 				behavior: 'smooth'
-			})
-	}
-
-	returnUp() {
-		window.scroll(
-			{
-				top: 0,
-				left: 0,
-				behavior: 'smooth'
-			}
-		);
+			});
 	}
 
 
 	burgerMenu() {
 		if (window.innerWidth <= 1250) {
-			if (navMenuVisible === true) {
-				document.getElementById('mobileNav').setAttribute("style", "display: none");
-				navMenuVisible = false;
-			} else if (navMenuVisible === false) {
-				document.getElementById('mobileNav').setAttribute("style", "display: flex");
-				navMenuVisible = true;
+			if (this.props.navMenuVis === true) {
+				this.props.mobileMenuCallback(false);
+			} else if (this.props.navMenuVis === false) {
+				this.props.mobileMenuCallback(true);
 			}
 		}
 	}
 
 	renderButton(key: string, url: string) {
-		return <NavButton key={key} buttonName={key} url={url} />
+		return <NavButton key={key} buttonName={key} url={url} onClick={this.props.mobileMenuCallback}/>
 	}
 
 	render() {
@@ -83,7 +75,7 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 					</div>
 				</Link>
 				<nav id="desktopNav">{buttons}</nav>
-				<nav id="mobileNav">{buttons}</nav>
+				<nav id={"mobileNav" + this.props.navMenuVis}>{buttons}</nav>
 				<div id="icons">
 					<img id="return-up" onClick={this.returnUp} src="./images/return-up-arrow.png" alt="Up Arrow" />
 					<img id="return-up-mobile" onClick={this.returnUp} src="./images/return-up-arrow-white.png" alt="Up Arrow" />
@@ -96,7 +88,7 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 					</div>
 					<div>
 						<img id="phoneIcon" src="./images/phone.png" alt="phone icon"/>
-						<p id="phoneNum">(734) 879-1068</p>
+						<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 						<p>CALL FOR AN APPOINTMENT</p>
 					</div>
 				</div>
@@ -108,12 +100,17 @@ export default class NavBar extends React.Component<{}, NavBarState> {
 type NavButtonProps = {
 	buttonName: string;
 	url: string;
+	onClick: Function;
 }
 
 class NavButton extends React.Component<NavButtonProps> {
 	onButtonPressed() {
-		document.getElementById('mobileNav').setAttribute("style", "display: none");
-		navMenuVisible = false;
+		this.props.onClick(false);
+		window.scroll({
+			top: 0,
+			left: 0,
+			behavior: 'smooth'
+		});
 	}
 
 	render() {

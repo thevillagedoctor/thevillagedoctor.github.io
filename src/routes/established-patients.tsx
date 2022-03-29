@@ -1,19 +1,17 @@
 import React from 'react';
-import { NavBar } from 'components';
 import 'styles/patients.css';
 import 'styles/patients-mobile.css';
 
 export function EstablishedPatients() {
 	return (
 		<div>
-			<NavBar/>
 			<div className="patients-page">
 				<h1>Established Patient Resourses</h1>
 				<div className="infoBody">	
 					<div className="infoBox">
 							<div>
 								<img id="phoneIcon" src="./images/phoneBlue.png" alt="phone icon"/>
-								<p id="phoneNumber">(734) 879-1068</p>
+								<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 								<p>CALL FOR AN APPOINTMENT</p>
 								<p id="hours">Hours:</p>
 								<p>Monday ... 8am - 8pm</p>

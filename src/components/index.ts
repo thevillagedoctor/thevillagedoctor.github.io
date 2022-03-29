@@ -1,3 +1,2 @@
-export * from './app';
 export * from './navigation';
-export * from './team'; 
+export * from './app'; 

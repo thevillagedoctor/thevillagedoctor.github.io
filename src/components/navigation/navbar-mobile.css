@@ -29,8 +29,8 @@
         display: none;
     }
 
-    #mobileNav {
-        display: none;
+    #mobileNavtrue {
+        display: flex;
         background-color: #124966e1;
         padding: 10px 0;
         margin: 0;
@@ -41,17 +41,17 @@
         right: 0px;
     }
 
-    #mobileNav .navbutton {
+    #mobileNavtrue .navbutton {
         display: block;
         background-color: transparent;
         padding: 5px 20px;
     }
 
-    #mobileNav .navbutton:hover {
+    #mobileNavtrue .navbutton:hover {
         color: #001f29;
     }
 
-    #mobileNav .navbutton::after {
+    #mobileNavtrue .navbutton::after {
         content: '';
         margin-top: 5px;
         display: block;
@@ -61,7 +61,7 @@
         transition: width .3s;
     }
 
-    #mobileNav .navbutton:hover::after {
+    #mobileNavtrue .navbutton:hover::after {
         width: 100%;
         transition: width .3s;
     } 
@@ -91,7 +91,7 @@
         height: 75px;
     }
  
-    #mobileNav {
+    #mobileNavtrue {
         top: 75px;
     }
 

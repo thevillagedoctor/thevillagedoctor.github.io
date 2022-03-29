@@ -53,8 +53,17 @@
 }  
 
 .welcome-page .infoBox #phoneNum {
+    display: inline-block;
     margin-top: 30px;
     margin-bottom: 0px;
+}
+
+.welcome-page .infoBox #phoneNum a{
+    color: #124966;
+}
+
+.welcome-page .infoBox #phoneNum a:visited{
+    color: #124966;
 }
 
 .welcome-page .infoBox #hours {

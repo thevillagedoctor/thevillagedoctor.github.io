@@ -1,14 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './index.css';
+import { Welcome, About, Providers, EstablishedPatients, NewPatients, Insurance, Resources, Contact } from 'routes';
 import { App } from 'components';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
-      <App />
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route path="" element={<Welcome />} />
+        <Route path="about" element={<About />} />
+        <Route path="providers" element={<Providers />} />
+        <Route path="established-patients" element={<EstablishedPatients />} />
+        <Route path="new-patients" element={<NewPatients />} />
+        <Route path="insurance" element={<Insurance />} />
+        <Route path="resources" element={<Resources />} />
+        <Route path="contact" element={<Contact />} />
+        {/* <Route path="*" element={<Error />} /> */}
+      </Route>
+      </Routes>
     </React.StrictMode>
   </BrowserRouter>,
   document.getElementById('root')

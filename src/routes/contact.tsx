@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavBar } from 'components';
 import 'styles/contact.css';
 import 'styles/contact-mobile.css';
 
@@ -7,7 +6,6 @@ import 'styles/contact-mobile.css';
 export function Contact() {
 		return(
 			<div>
-				<NavBar/>
 				<div className="contact-page">
 					<h1>Contact Us</h1>
 					<div className='infoBody'>
@@ -16,7 +14,7 @@ export function Contact() {
 							<p>Kenneth J. Grimm MD, MS, FAAFP</p>
 							<p>Cherry Hill Village Family Medicine</p>
 							<img id="phoneIcon" src="./images/phoneBlue.png" alt="phone icon"/>
-							<p id="phoneNum">(734) 879-1068</p>
+							<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 							<p>CALL FOR AN APPOINTMENT</p>
 							<p id="hours">Hours:</p>
 							<p>Monday ... 8am - 8pm</p>
@@ -48,12 +46,7 @@ export function Contact() {
 						<p className='bold'>
 							For a medical emergency please call 911.
 						</p>
-						<h2>Email</h2>
-						<p>
-							If you would like to send us an email please address it to info@thevillagedoctor.net and we will get back with you as soon as possible. 	
-							Please do not use email to ask specific questions about your health or your medical care as email is not secure enough to use for this purpose. 
-							Kindly note that emails will not be answered during the weekend, and never use email for urgent questions or emergencies.
-						</p>
+						
 						<h2>Find Us</h2>
 						<p>
 							Please be aware that although our street is officially named Independence Street, some mapping sites may still call it Consititution Street.

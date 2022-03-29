@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavBar } from 'components';
 import 'styles/providers.css';
 import 'styles/providers-mobile.css'
 
@@ -7,7 +6,6 @@ import 'styles/providers-mobile.css'
 export function Providers() {
   return (
     <div>
-		  <NavBar/>
       <div className="providers-page">
         <h1>Meet our Providers</h1>
           <div className="provider">
@@ -15,11 +13,11 @@ export function Providers() {
             <h2>Dr. Grimm</h2>
             <p>
               Dr. Ken Grimm is board certified in Family Medicine. He grew up in Pittsburgh, Pennsylvania, but has made Michigan his home since 1994. 
-              He lives in Cherry Hill Village, less than one mile from the practice, with his wife and two children. 
+              He lives in Cherry Hill Village, less than one mile from the practice, where he and his wife raised there two children.
               His bachelor's degree is from The Johns Hopkins University, and his medical degree is from the University of Pennsylvania. 
               He completed his residency at the University of Michigan, where he served as chief resident in his final year. 
               He has been in practice in the area since 1997. He has taught medical students from both the University of Michigan and Wayne State University, 
-              and resident physicians at both the Oakwood and Saint Mary Mercy Hospitals' Family Medicine Residency Programs.
+              as well as residents at Beaumont (formerly Oakwood), St Mary Mercy Hospital, and Providence Hospital.".
             </p>
             <p>
               Dr. Grimm believes his role is to be a partner with his patients in their health care. 
@@ -75,8 +73,8 @@ export function Providers() {
             <img src="./images/sydney-hattie.jpg" alt="Sydney Hattie"/>
             <h2>Sydney Hattie</h2>
             <p>
-              Sydney L. Hattie is a board-certified Family Nurse Practitioner. She lives in
-              Canton with her husband, young daughter, and two dogs.
+              Sydney L. Hattie is a board-certified Family Nurse Practitioner. She moved from Canton to Dexter, MI in 2021 (west of Ann Arbor)
+              and is enjoying the country lifestyle with her husband and two daughters. 
             </p>
             <p>
               She received her bachelor’s degree in nursing from the University of Michigan 

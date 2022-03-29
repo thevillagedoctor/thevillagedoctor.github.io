@@ -1,22 +1,37 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import { Welcome, About, Providers, EstablishedPatients, NewPatients, Insurance, Resources, Contact } from 'routes';
+import { Outlet } from 'react-router-dom';
+import { NavBar } from 'components';
 
-export default class App extends React.Component {
+type appState = {
+    navMenuVis: boolean,
+}
+
+export default class App extends React.Component < {}, appState> {
+    constructor (props) {
+        super(props);
+        this.state = {
+            navMenuVis: false,
+        }
+        this.hideMobileMenu = this.hideMobileMenu.bind(this);
+        this.mobileMenu = this.mobileMenu.bind(this);
+    }
+
+  hideMobileMenu(e) {
+    if (e.target.ID !== 'mobileNavtrue' && e.target.className !== 'icon') {
+      this.mobileMenu(false);
+    }
+  }
+
+  mobileMenu(visible: boolean) {
+    this.setState({navMenuVis: visible});
+  }
+
 	render() {
 		return (
-      <div>
-        <Routes>
-          <Route path="/" element={<Welcome/>}/>
-          <Route path="about" element={<About/>}/>
-          <Route path="providers" element={<Providers/>}/>
-          <Route path="established-patients" element={<EstablishedPatients/>}/>
-          <Route path="new-patients" element={<NewPatients/>}/>
-          <Route path="insurance" element={<Insurance/>}/>
-          <Route path="resources" element={<Resources/>}/>
-          <Route path="contact" element={<Contact/>}/>
-        </Routes>
-      </div>
+            <div onClick={this.hideMobileMenu}>
+                <NavBar navMenuVis={this.state.navMenuVis} mobileMenuCallback={this.mobileMenu}/>
+                <Outlet />
+            </div>
 		)
 	}
 }

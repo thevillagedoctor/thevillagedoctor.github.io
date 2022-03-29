@@ -1,1 +1,0 @@
-export { default as TeamMember, type TeamMemberType } from './team-member';

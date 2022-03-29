@@ -1,12 +1,10 @@
 import React from 'react';
-import { NavBar } from 'components';
 import 'styles/welcome.css';
 import 'styles/welcome-mobile.css';
 
 export function Welcome() {
 	return (
 		<div>
-			<NavBar/>
 			<div className="welcome-page" >
 				<img id="buildingLogo" src="./images/BuildingLogo.jpg" alt="Building"/>
 				<div id="contactInfo">
@@ -17,7 +15,7 @@ export function Welcome() {
 							<p>Kenneth J. Grimm MD, MS, FAAFP</p>
 							<p>Cherry Hill Village Family Medicine</p>
 							<img id="phoneIcon" src="./images/phoneBlue.png" alt="phone icon"/>
-							<p id="phoneNum">(734) 879-1068</p>
+							<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 							<p>CALL FOR AN APPOINTMENT</p>
 							<p id="hours">Hours:</p>
 							<p>Monday ... 8am - 8pm</p>
@@ -43,7 +41,7 @@ export function Welcome() {
 					<h1>Welcome...</h1>
 					<p>
 						Welcome to The Village Doctor at Cherry Hill, the Family Practice of Dr. Ken Grimm. 
-						We specialize in offering modern medicine and old-fashioned care to our patients of all ages. 
+						We specialize in offering evidence-based medicine and old-fashioned care to our patients of all ages. 
 						We are very happy that you have visited us here on the web. Feel free to look around. 
 						We are sure you will be happy with what you find, and we look forward to welcoming you to the practice in person soon!
 					</p>	

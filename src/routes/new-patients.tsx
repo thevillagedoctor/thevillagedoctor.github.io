@@ -1,19 +1,17 @@
 import React from 'react';
-import { NavBar } from 'components';
-import 'styles/patients.css';
+import 'styles/patients.css'; 
 import 'styles/patients-mobile.css';
 
 export function NewPatients() {
 	return (
 		<div>
-			<NavBar/>
 			<div className="patients-page">
 				<h1>New Patient Resourses</h1>
 				<div className="infoBody">	
 					<div className="infoBox">
 							<div>
 								<img id="phoneIcon" src="./images/phoneBlue.png" alt="phone icon"/>
-								<p id="phoneNumber">(734) 879-1068</p>
+								<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 								<p>CALL FOR AN APPOINTMENT</p>
 								<p id="hours">Hours:</p>
 								<p>Monday ... 8am - 8pm</p>
@@ -42,9 +40,14 @@ export function NewPatients() {
 						In order to do this, we ask you to arrive at the office 15 minutes before your appointment 
 						so that we can have you in the room and ready to see the doctor as close to your appointment time as possible.
 					</p>
-					<a className="button" href="http://thevillagedoctor.net/assets/adult-form-set.pdf" target="blank">New Patient Adult Form (ages 18+)</a>
-					<a className="button" href="http://thevillagedoctor.net/assets/pediatric-form-set.pdf" target="blank">New Patient Pediatrics Form (ages 0-17)</a>
-
+					<a className="button" href="./pdfs/adult-form-set.pdf" target="blank">New Patient Adult Form (ages 18+)</a>
+					<a className="button" href="./pdfs/pediatric-form-set.pdf" target="blank">New Patient Pediatrics Form (ages 0-17)</a>
+					<h2>Email</h2>
+					<p>
+						If you would like to send us an email please address it to info@thevillagedoctor.net and we will get back with you as soon as possible. 	
+						Please do not use email to ask specific questions about your health or your medical care as email is not secure enough to use for this purpose. 
+						Kindly note that emails will not be answered during the weekend, and never use email for urgent questions or emergencies.
+					</p>
 				</div>
 			</div>
 		</div>

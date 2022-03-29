@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavBar } from 'components';
 import 'styles/about.css';
 import 'styles/about-mobile.css';
 
@@ -8,7 +7,6 @@ import 'styles/about-mobile.css';
 export function About() {
 		return(
 			<div>
-				<NavBar/>
 				<div className="about-page">
 					<h1>About the Practice</h1>
 					<img id="buildingLogo" src="./images/BuildingLogo.jpg" alt="Building"/>
@@ -39,8 +37,8 @@ export function About() {
 							providing the same personal care that you have come to know from the office.
 						</p>
 						<p>
-							We believe that we should help you with all of your healthcare needs, and we have applied for designation as 
-							a Patient Centered Medical Home (PCMH).
+							We believe that we should help you with all of your healthcare needs, and we have been designated as a Patient Centered Medical Home.
+							Click <a href="https://www.bcbsm.com/content/dam/public/Providers/Documents/value/patient-centered-medical-home-fact-sheet.pdf" target="blank">here</a> to learn more about Patienct Centered Medical Homes. 
 						</p>
 						<p>
 							Here at The Village Doctor, we truly do provide <span className="italics">evidence-based medicine, old-fashioned care</span>.
@@ -53,7 +51,7 @@ export function About() {
 						</figure>
 						<figure>
 						<img src="./images/nurses-station.jpg" alt="Nurses Station"/>
-							<figcaption>Nurses' Station</figcaption>
+							<figcaption>Front Desk</figcaption>
 						</figure>
 						<figure>
 						<img src="./images/procedure-room.jpg" alt="Procedure Room"/>
