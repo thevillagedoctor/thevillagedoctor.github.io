@@ -6,7 +6,7 @@ import 'styles/providers-mobile.css'
 export function Providers() {
   return (
     <div>
-      <div className="providers-page">
+      <div className=" typical-content providers-page">
         <h1>Meet our Providers</h1>
           <div className="provider">
             <img src="./images/dr-grimm.jpg" alt="Dr. Grimm"/>

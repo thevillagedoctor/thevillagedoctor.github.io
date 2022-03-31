@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "fs": "^0.0.1-security",
     "nth-check": ">=2.0.1",
     "postcss": ">=8.2.13",
     "react": "^17.0.2",
@@ -28,9 +29,16 @@
     ],
     "settings": {
       "import/resolver": {
-        "node": {          
-          "paths": ["src"],
-          "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "node": {
+          "paths": [
+            "src"
+          ],
+          "extensions": [
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx"
+          ]
         }
       }
     }
@@ -50,5 +58,10 @@
   "devDependencies": {
     "@types/react": "^17.0.38",
     "typescript": "^4.5.4"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }

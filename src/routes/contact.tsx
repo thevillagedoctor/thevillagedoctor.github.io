@@ -6,7 +6,7 @@ import 'styles/contact-mobile.css';
 export function Contact() {
 		return(
 			<div>
-				<div className="contact-page">
+				<div className="typical-content contact-page">
 					<h1>Contact Us</h1>
 					<div className='infoBody'>
 					<div className="infoBox">

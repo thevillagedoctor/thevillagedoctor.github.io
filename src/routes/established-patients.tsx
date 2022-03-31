@@ -5,7 +5,7 @@ import 'styles/patients-mobile.css';
 export function EstablishedPatients() {
 	return (
 		<div>
-			<div className="patients-page">
+			<div className="typical-content patients-page">
 				<h1>Established Patient Resourses</h1>
 				<div className="infoBody">	
 					<div className="infoBox">

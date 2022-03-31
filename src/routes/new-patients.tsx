@@ -1,11 +1,11 @@
 import React from 'react';
-import 'styles/patients.css'; 
+import 'styles/patients.css';
 import 'styles/patients-mobile.css';
 
 export function NewPatients() {
 	return (
 		<div>
-			<div className="patients-page">
+			<div className="typical-content patients-page">
 				<h1>New Patient Resourses</h1>
 				<div className="infoBody">	
 					<div className="infoBox">

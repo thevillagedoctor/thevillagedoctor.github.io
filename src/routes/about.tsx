@@ -7,7 +7,7 @@ import 'styles/about-mobile.css';
 export function About() {
 		return(
 			<div>
-				<div className="about-page">
+				<div className="about-page typical-content">
 					<h1>About the Practice</h1>
 					<img id="buildingLogo" src="./images/BuildingLogo.jpg" alt="Building"/>
 					<div className="infoBody">

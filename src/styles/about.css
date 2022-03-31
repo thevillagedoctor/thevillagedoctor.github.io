@@ -1,42 +1,7 @@
-.about-page {
-    margin: 40px 0 0 250px;
-    width: calc(100vw - 300px);
-    text-align: center;
-    font-family: "Font-Regular";
-    color: #124966;  
-}
-
 .about-page #buildingLogo {
     width: 35vw;
     float: right;
     margin: 50px 30px 30px 30px;
-}
-
-.about-page .infoBody {
-    text-align: left;
-    padding: 30px 20px 20px 75px;
-    width: 95%;
-}
-
-.about-page h1 {
-    text-align: center;
-    font-family: "Trajan-Pro";
-    margin: 100px 0 50px 0;
-    font-size: 60px;
-}
-
-.about-page p {
-    margin: 30px 0 30px 0;
-    font-size: 20px;
-    color: #124966;
-}
-
-.italics {
-    font-family: 'Font-Italic';
-}
-
-.imageGalery {
-    padding-bottom: 100px;
 }
 
 .imageGalery img {

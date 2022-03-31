@@ -1,42 +1,4 @@
-@media screen and (max-width: 1250px) {
-    .insurance-page { 
-        margin: 40px auto;
-        width: 100vw;
-    }
-    
-    .insurance-page h1 {
-        margin: 150px 0 0 0;
-        padding-top: 0;
-    }
-}
-
 @media screen and (max-width: 768px) {
-    .insurance-page {
-        padding-bottom: 100px;
-    }
-
-    .insurance-page h1 {
-        margin: 100px 0 0 0;
-        padding: 0;
-        font-size: 40px;
-    }
-
-    .insurance-page h2 {
-        font-size: 30px;
-        margin-top: 50px;
-    }
-
-    .insurance-page p {
-        font-size: 14px;
-        margin: 0 0 15px 0;
-    }
-
-    .infoBody {
-        padding: 30px 0 30px 0;
-        margin: 0 auto;
-        width: 90%;
-    }
-
     .insurance-page ul {
         font-size: 14px; 
     }

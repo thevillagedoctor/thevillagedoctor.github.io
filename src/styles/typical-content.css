@@ -1,0 +1,126 @@
+.typical-content {
+    margin: 40px 0 100px 250px;
+    width: calc(100vw - 300px);
+    text-align: center;
+    font-family: "Font-Regular";
+    color: #124966;
+}
+
+.infoBody {
+    text-align: center;
+    padding: 0 20px 20px 75px;
+    width: 95%;
+}
+
+.typical-content h1 {
+    text-align: center;
+    font-family: "Trajan-Pro"; 
+    margin: 100px 0 50px 0;
+    font-size: 60px;
+}
+
+.typical-content h2 {
+    font-family: "Trajan-Pro";
+    font-size: 40px;
+    text-align: left;
+    margin: 60px 0 30px 0;
+}
+
+.typical-content p {
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    color: #124966;
+    text-align: left;
+}
+
+.italics {
+    font-family: 'Font-Italic';
+    text-align: center;
+}
+
+.bold {
+    font-family: 'Font-Bold';
+}
+
+.button {
+    display: block;
+    width: max-content;
+    padding: 10px 20px;
+    background-color: #124966;
+    color: #F1F2F5;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Trajan-Pro";
+    margin: 60px auto;
+}  
+
+.infoBox p {
+    margin: 5px 0px;
+}
+
+#phoneNum {
+    margin: 5px 0px;
+    display: inline-block;
+}
+
+#phoneNum a{
+    color: #124966;
+}
+
+#phoneNum a:visited{
+    color: #124966;
+}
+
+.infoBox #phoneIcon {
+    height: 20px;
+    width: auto;
+    margin: 0;
+    display: inline-block;
+}
+
+.infoBox #hours {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.infoBox #map {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    border: solid 2px #124966;
+    border-radius: 0px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.infoBox #carIcon {
+    height: 50px;
+    width: auto;
+    padding: 0px 20px;
+    margin: 0;
+    display: inline;
+}
+
+.infoBox .button {
+    padding: 5px 20px;
+    background-color: #124966;
+    color: #F1F2F5;
+    border-radius: 5px;
+    display: inline;
+    text-decoration: none;
+    margin: auto 0px;
+}
+
+#info2 {
+    text-align: center;
+}
+
+#info2 p {
+    text-align: left;
+}

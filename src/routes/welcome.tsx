@@ -5,11 +5,13 @@ import 'styles/welcome-mobile.css';
 export function Welcome() {
 	return (
 		<div>
+			<div id='slogan'>
+				<h2>Evidence-Based Medicine...</h2>
+				<h2>Old-Fashioned Care</h2>
+			</div>
 			<div className="welcome-page" >
 				<img id="buildingLogo" src="./images/BuildingLogo.jpg" alt="Building"/>
 				<div id="contactInfo">
-					<h2>Evidence-Based Medicine...</h2>
-					<h2>Old-Fashioned Care</h2>
 					<div className="infoBox">
 						<div id="info1">
 							<p>Kenneth J. Grimm MD, MS, FAAFP</p>

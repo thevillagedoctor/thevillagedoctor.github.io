@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './index.css';
+import './styles/typical-content.css';
+import './styles/typical-content-mobile.css';
 import { Welcome, About, Providers, EstablishedPatients, NewPatients, Insurance, Resources, Contact } from 'routes';
 import { App } from 'components';
 import reportWebVitals from './reportWebVitals';

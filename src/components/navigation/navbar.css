@@ -12,15 +12,14 @@
 }
 
 #logo-container {
-    margin: 50px auto;
-    
+    margin: 50px auto;   
 }
 
 a {
     text-decoration: none;
 }
 
-a:visited {
+#nav-bar a:visited {
     color: #F1F2F5;
     text-decoration: none;
 }
@@ -163,6 +162,41 @@ a:visited {
 
     .navbutton::after {
         margin-top: 2px;
+    }  
+}
+
+@media screen and (max-height: 650px) {
+    #logo {
+        height: 75px;
+        margin: 10px;
     }
-    
+
+    #logo-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .navbutton {
+        padding-top: 1;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-height: 475px) {
+    #footer {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    #logo-container {
+        display: none;
+    }
+
+    #desktopNav {
+        margin: 20px 0;
+    }
 }
