@@ -29,7 +29,7 @@ export function Welcome() {
 							<p>Sunday ... Closed</p>
 						</div>
 						<div id="info2">
-							<a href="https://www.google.com/maps/dir//50439+Independence+St,+Canton,+MI+48188/@42.3058103,-83.5380666,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883b54397a655555:0xa6d679841bc9491f!2m2!1d-83.5358779!2d42.3058064!3e0" target="blank"><img id="map" src="./images/map.png" alt="map"/></a>
+							<a href="https://www.google.com/maps/dir//50439+Independence+St,+Canton,+MI+48188/@42.3058103,-83.5380666,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883b54397a655555:0xa6d679841bc9491f!2m2!1d-83.5358779!2d42.3058064!3e0" target="blank"><img id="map" src="./images/map.jpg" alt="map"/></a>
 							<p>50439 Independence St</p>
 							<p>Canton MI, 48188</p>
 							<div className="flexContainer">
@@ -60,7 +60,7 @@ export function Welcome() {
 					After signing in at the Reception Desk please make yourself comfortable in our waiting room.
 					There is a children's area where the little ones are welcome to read, 
 					play or color while still being close to a parent or guardian. 
-					There is a desk for doing homework, and a quiet area with cards and "older" games. 
+					There is a desk for doing homework and a quiet area with cards and "older" games. 
 					Some of these games have smaller parts which might be dangerous for young children to play with so please 
 					keep them in the quiet area. If you should need to use the internet while here we have a guest network available.
 					</p>	

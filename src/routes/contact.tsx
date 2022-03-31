@@ -26,7 +26,7 @@ export function Contact() {
 							<p>Sunday ... Closed</p>
 						</div>
 						<div id="info2">
-							<a href="https://www.google.com/maps/dir//50439+Independence+St,+Canton,+MI+48188/@42.3058103,-83.5380666,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883b54397a655555:0xa6d679841bc9491f!2m2!1d-83.5358779!2d42.3058064!3e0" target="blank"><img id="map" src="./images/map.png" alt="map"/></a>
+							<a href="https://www.google.com/maps/dir//50439+Independence+St,+Canton,+MI+48188/@42.3058103,-83.5380666,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883b54397a655555:0xa6d679841bc9491f!2m2!1d-83.5358779!2d42.3058064!3e0" target="blank"><img id="map" src="./images/map.jpg" alt="map"/></a>
 							<p>50439 Independence St</p>
 							<p>Canton MI, 48188</p>
 							<div className="flexContainer">
@@ -49,14 +49,14 @@ export function Contact() {
 						
 						<h2>Find Us</h2>
 						<p>
-							Please be aware that although our street is officially named Independence Street, some mapping sites may still call it Consititution Street.
+							Please be aware that although our street is officially named Independence Street, some mapping sites may still call it Constitution Street.
 						</p>
 						<p>
 							The way to know you are in the right place is that Independence Street is at the intersection of Cherry Hill and Ridge Roads, 
 							at the traffic light outside The Village Theatre, and our office is right above Coldstone Creamery.
 						</p>
 						<p>
-							The access to our 2nd floor office is either from the external stairway to the balcony (facing the village fountain), 
+							The access to our second-floor office is either from the external stairway to the balcony (facing the village fountain), 
 							then use the middle set of doors and turn left, or by using the elevator (access is under the archway) to the 2nd floor and then follow the hallway around to the office.
 						</p>
 					</div>

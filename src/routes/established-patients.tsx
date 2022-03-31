@@ -28,8 +28,8 @@ export function EstablishedPatients() {
 						You can schedule an appointment to be seen during our normal office hours.
 						For routine visits, please call in advance so we can give you an appointment that best matches your schedule. 
 						When urgent problems come up unexpectedly we will do our best to see you within one business day. 
-						Unless you have a life-threatening emergency, it is always better for you to see the doctor who knows you, 
-						rather than going to an urgent care or an emergency room.
+						Unless you have a life-threatening emergency, it is always better for you to see a medical provider who knows you, 
+						rather than going to the urgent care or emergency room.
 					</p>
 					<p>
 						We value your time, and we make special efforts to keep to our scheduled appointment times. 
@@ -41,7 +41,7 @@ export function EstablishedPatients() {
 						The system also allows us to communicate with you electronically, 
 						through a portal that protects your personal information in a way that is 
 						compliant with the latest healthcare privacy laws and regulations. 
-						Through this portal you can send us secure messages, 
+						Through this portal, you can send us secure messages, 
 						as well as receive messages and test results from us. 
 						If you are interested in communicating with us through the portal please contact the office. 
 						As long as we have an email address on file in your chart already we can set up a portal account for you. 

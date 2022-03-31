@@ -32,8 +32,8 @@ export function NewPatients() {
 						You can schedule an appointment to be seen during our normal office hours.
 						For routine visits, please call in advance so we can give you an appointment that best matches your schedule. 
 						When urgent problems come up unexpectedly we will do our best to see you within one business day. 
-						Unless you have a life-threatening emergency, it is always better for you to see the doctor who knows you, 
-						rather than going to an urgent care or an emergency room.
+						Unless you have a life-threatening emergency, it is always better for you to see a medical provider who knows you, 
+						rather than going to the urgent care or emergency room.
 					</p>
 					<p>
 						We value your time, and we make special efforts to keep to our scheduled appointment times. 
@@ -44,7 +44,7 @@ export function NewPatients() {
 					<a className="button" href="./pdfs/pediatric-form-set.pdf" target="blank">New Patient Pediatrics Form (ages 0-17)</a>
 					<h2>Email</h2>
 					<p>
-						If you would like to send us an email please address it to info@thevillagedoctor.net and we will get back with you as soon as possible. 	
+						If you would like to send us an email please address it to info@thevillagedoctor.net and we will get back to you as soon as possible. 	
 						Please do not use email to ask specific questions about your health or your medical care as email is not secure enough to use for this purpose. 
 						Kindly note that emails will not be answered during the weekend, and never use email for urgent questions or emergencies.
 					</p>

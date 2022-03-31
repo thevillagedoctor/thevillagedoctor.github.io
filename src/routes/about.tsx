@@ -17,17 +17,17 @@ export function About() {
 						</p>
 						<p>	
 							Here, we still believe in the personal relationship that you and your family have with your doctor! 
-							We want to get to know you individually, because that helps us to offer you the most appropriate care. 
+							We want to get to know you individually because that helps us to offer you the most appropriate care. 
 							Our practice can be an extension of your family! Whether you are healthy and seeking advice on maximizing wellness, 
 							or you need a partner in managing chronic medical problems such as diabetes, high blood pressure, 
 							heart disease, or depression, you will find what you are looking for here.
 						</p>
 						<p>
-							We care for patients of all ages, from "cradle to grave". Whether you are a mother with a newborn, 
+							We care for patients of all ages, from "cradle to grave". Whether you are a mother with a newborn 
 							or a son with an elderly parent, we are trained and ready to help you and your family with your health care needs. 
-							In fact, we even care for very little ones before they are born, by taking care of our patients throughout pregnancy, 
+							We even care for very little ones before they are born, by taking care of our patients throughout pregnancy, 
 							including delivering the baby at one of our local hospitals! We provide women's health services, 
-							well child care, adolescent medicine, and care for elderly patients. 
+							well-child care, adolescent medicine, and care for elderly patients. 
 							We perform most office-based procedures right here, meaning that you will rarely have to be referred to a doctor you don't know.
 						</p>
 						<p>
@@ -37,8 +37,8 @@ export function About() {
 							providing the same personal care that you have come to know from the office.
 						</p>
 						<p>
-							We believe that we should help you with all of your healthcare needs, and we have been designated as a Patient Centered Medical Home.
-							Click <a href="https://www.bcbsm.com/content/dam/public/Providers/Documents/value/patient-centered-medical-home-fact-sheet.pdf" target="blank">here</a> to learn more about Patienct Centered Medical Homes. 
+							We believe that we should help you with all of your healthcare needs, and we have been designated as a Patient-Centered Medical Home.
+							Click <a href="https://www.bcbsm.com/content/dam/public/Providers/Documents/value/patient-centered-medical-home-fact-sheet.pdf" target="blank">here</a> to learn more about Patient-Centered Medical Homes. 
 						</p>
 						<p>
 							Here at The Village Doctor, we truly do provide <span className="italics">evidence-based medicine, old-fashioned care</span>.

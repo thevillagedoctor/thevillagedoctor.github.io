@@ -13,7 +13,7 @@ export function Providers() {
             <h2>Dr. Grimm</h2>
             <p>
               Dr. Ken Grimm is board certified in Family Medicine. He grew up in Pittsburgh, Pennsylvania, but has made Michigan his home since 1994. 
-              He lives in Cherry Hill Village, less than one mile from the practice, where he and his wife raised there two children.
+              He lives in Cherry Hill Village, less than one mile from the practice, where he and his wife raised their two children.
               His bachelor's degree is from The Johns Hopkins University, and his medical degree is from the University of Pennsylvania. 
               He completed his residency at the University of Michigan, where he served as chief resident in his final year. 
               He has been in practice in the area since 1997. He has taught medical students from both the University of Michigan and Wayne State University, 
@@ -25,15 +25,15 @@ export function Providers() {
               allowing them to make their own best, most informed decisions regarding their healthcare.
             </p>
             <p>
-              Dr. Grimm has a special interest in Preventive Medicine, realizing that it is far better to prevent a disease or a complication from happening, 
-              than it is to manage it later. He is an expert in the science of Preventive Medicine. 
-              He can offer you advice on what the latest research has taught us, and how it applies to your own personal preventive health plan.
+              Dr. Grimm has a special interest in Preventive Medicine, realizing that it is far better to prevent a disease or a complication from happening 
+              than to manage it later. He is an expert in the science of Preventive Medicine. 
+              He can offer you advice on what the latest research has taught us, and how it applies to your personal preventive health plan.
             </p>
             <p>
               Dr. Grimm believes deeply in the model of the true Family Doctor, 
               where patients and their families have a personal relationship with their physician, 
-              who is there to help them with all of their healthcare needs in a comprehensive and continuous way over long periods of time. 
-              This has, unfortunately, become rare in healthcare today. If it something that you value too, you can find it here. 
+              who is there to help them with all of their healthcare needs comprehensively and continuously. 
+              This has, unfortunately, become rare in healthcare today. If that is something that you value too, you can find it here. 
               This is what we mean by <span className="italics">evidence-based medicine, old-fashioned care</span>.
             </p>
           </div>
@@ -56,8 +56,8 @@ export function Providers() {
               when helping her patients make informed decisions regarding their healthcare.
             </p>
             <p>
-              Sara views health not only as the absence of disease, but also as a sense of balance in one’s life and a feeling of wellness. 
-              She believes that when there is illness, optimizing one’s emotional health is essential to treatment and recovery.
+              Sara views health not only as the absence of disease but also as a sense of balance in one’s life and a feeling of wellness. 
+              She believes that when illness is involved, optimizing one’s emotional health is essential to treatment and recovery.
             </p>
             <p>
               Sara believes in the importance of a healthy lifestyle from birth through adulthood. 
@@ -66,7 +66,7 @@ export function Providers() {
             </p>
             <p>
               Sara listens intently to her patients’ concerns and strives to create a trusting environment 
-              so that the each person’s healthcare needs can be managed in a comprehensive manner.
+              so that each person’s healthcare needs can be managed comprehensively.
             </p>
           </div>
           <div className="provider">
@@ -78,7 +78,7 @@ export function Providers() {
             </p>
             <p>
               She received her bachelor’s degree in nursing from the University of Michigan 
-              and continued on at Michigan to complete her Doctorate of Nursing Practice (DNP). 
+              and continued at Michigan to complete her Doctorate of Nursing Practice (DNP). 
               She enjoys treating people of all ages and focuses on the prevention and 
               management of chronic diseases to promote the highest quality of life.
             </p>
@@ -93,8 +93,8 @@ export function Providers() {
               patients can be supported to make the best health decisions for themselves and their families.
             </p>
             <p>
-              With her DNP, Sydney dedicated extra years of schooling to learning about quality improvement 
-              and how to implement best practices into a healthcare setting.
+              With her DNP, Sydney dedicated extra years of schooling to better understand quality improvement 
+              and how to implement best practices in a healthcare setting.
             </p>
             <p>
               Sydney believes through a strong provider-patient relationship, every patient can reach their full health potential.
