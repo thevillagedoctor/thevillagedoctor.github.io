@@ -14,3 +14,18 @@
 .contact-page .infoBox p {
     font-size: 14px;
 }
+
+@media print {
+    .contact-page .infoBox {
+        width: 33vw;
+    }
+
+    .contact-page .infoBox p {
+        font-size: 10px;
+    }
+
+    .contact-page .infoBox #map {
+        width: 80%;
+        margin: 10 auto;
+    }
+}

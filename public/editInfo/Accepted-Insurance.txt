@@ -7,6 +7,8 @@ Cigna
 Cofinity
 First Health Network
 Health Alliance Plan (Medicare, Medicaid, and Commercial)
+
+
 Medicaid
 Medicare
 Meridian (Medicaid and Commercial)
@@ -14,3 +16,4 @@ Molina (Medicare, Medicaid, and Commercial)
 Priority Health (Medicare, Medicaid, and Commercial)
 Tricare
 United Health Care (Medicare, Medicaid, and Commercial)
+

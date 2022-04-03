@@ -40,8 +40,8 @@ export function NewPatients() {
 						In order to do this, we ask you to arrive at the office 15 minutes before your appointment 
 						so that we can have you in the room and ready to see the doctor as close to your appointment time as possible.
 					</p>
-					<a className="button" href="./pdfs/adult-form-set.pdf" target="blank">New Patient Adult Form (ages 18+)</a>
-					<a className="button" href="./pdfs/pediatric-form-set.pdf" target="blank">New Patient Pediatrics Form (ages 0-17)</a>
+					<a className="button" href="./pdfs/adult-form-set.pdf" target="_blank">New Patient Adult Form (ages 18+)</a>
+					<a className="button" href="./pdfs/pediatric-form-set.pdf" target="_blank">New Patient Pediatrics Form (ages 0-17)</a>
 					<h2>Email</h2>
 					<p>
 						If you would like to send us an email please address it to info@thevillagedoctor.net and we will get back to you as soon as possible. 	

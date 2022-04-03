@@ -12,3 +12,11 @@
     height: 360px;
     margin: 10px 0 30px 30px;
 }
+
+@media print {
+    .patients-page .infoBox {
+        width: 33vw;
+        height: max-content;
+        margin-top: 0;
+    }
+}

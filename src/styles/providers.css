@@ -12,3 +12,8 @@
     text-align: center;
 }  
 
+@media print {
+    .provider {
+        break-after: always;
+    }
+}

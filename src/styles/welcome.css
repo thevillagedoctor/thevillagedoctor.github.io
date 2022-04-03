@@ -137,16 +137,12 @@
 #image1 {
     grid-column: 4 / 7;
     grid-row: -2;
-    /* transform: rotate(5deg); */
-    /* box-shadow: 0px 0px 20px 10px #63686b; */
     border: inset 5px #00a2d7;
 }
 
 #image2 {
     grid-column: 1 / 4;
     grid-row: -1;
-    /* transform: rotate(-5deg); */
-    /* box-shadow: 0px 0px 20px 10px #63686b; */
     border: inset 5px #00a2d7;
 }
 
@@ -186,5 +182,51 @@
     
     #contactInfo {
         grid-column: 4 / 7;
+    }
+}
+
+@media print {
+    .welcome-page {
+        margin: 0;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    #slogan {
+        margin: 50px 0;
+        width: 100%
+    }
+
+    .welcome-page #buildingLogo {
+        width: 50vw;
+    }
+
+    .welcome-page .infoBox {
+        width: 33vw;
+    }
+
+    .welcome-page .infoBox p {
+        font-size: 10px;
+    }
+
+    .welcome-page .infoBox #map {
+        width: 80%;
+        margin: 10 auto;
+    }
+
+    .flexContainer {
+        display: none;
+    }
+
+    .welcome-page p {
+        font-size: 12px;
+    }
+
+    .infoParagraph {
+        margin: 50px auto 0 auto;
+    }
+    
+    .welcome-page img {
+        margin: 50px auto 0 auto;
     }
 }

@@ -38,7 +38,7 @@ export function About() {
 						</p>
 						<p>
 							We believe that we should help you with all of your healthcare needs, and we have been designated as a Patient-Centered Medical Home.
-							Click <a href="https://www.bcbsm.com/content/dam/public/Providers/Documents/value/patient-centered-medical-home-fact-sheet.pdf" target="blank">here</a> to learn more about Patient-Centered Medical Homes. 
+							Click <a href="./pdfs/pcmh-fact-sheet" target="_blank">here</a> to learn more about Patient-Centered Medical Homes. 
 						</p>
 						<p>
 							Here at The Village Doctor, we truly do provide <span className="italics">evidence-based medicine, old-fashioned care</span>.

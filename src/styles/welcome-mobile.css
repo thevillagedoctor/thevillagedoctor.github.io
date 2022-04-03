@@ -3,10 +3,6 @@
         grid-template-rows: repeat(4, auto);
     }
 
-    #slogan {
-        margin: 150px 0 0 250px;
-    }
-
     .welcome-page #buildingLogo {
         grid-column: 1 / 7;
         width: 75%;

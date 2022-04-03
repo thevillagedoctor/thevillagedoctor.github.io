@@ -200,3 +200,9 @@ a {
         margin: 20px 0;
     }
 }
+
+@media print {
+    #nav-bar {
+        display: none;
+    }
+}

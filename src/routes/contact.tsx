@@ -1,6 +1,7 @@
 import React from 'react';
 import 'styles/contact.css';
 import 'styles/contact-mobile.css';
+import { Hours } from 'components';
 
 
 export function Contact() {
@@ -17,13 +18,7 @@ export function Contact() {
 							<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 							<p>CALL FOR AN APPOINTMENT</p>
 							<p id="hours">Hours:</p>
-							<p>Monday ... 8am - 8pm</p>
-							<p>Tuesday ... 8am - 8pm</p>
-							<p>Wednesday ... 8am - 5pm</p>
-							<p>Thursday ... 8am - 8pm</p>
-							<p>Friday ... 8am - 5pm</p>
-							<p>Saturday ... 8am - Noon</p>
-							<p>Sunday ... Closed</p>
+							<Hours />
 						</div>
 						<div id="info2">
 							<a href="https://www.google.com/maps/dir//50439+Independence+St,+Canton,+MI+48188/@42.3058103,-83.5380666,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x883b54397a655555:0xa6d679841bc9491f!2m2!1d-83.5358779!2d42.3058064!3e0" target="blank"><img id="map" src="./images/map.jpg" alt="map"/></a>
@@ -59,6 +54,24 @@ export function Contact() {
 							The access to our second-floor office is either from the external stairway to the balcony (facing the village fountain), 
 							then use the middle set of doors and turn left, or by using the elevator (access is under the archway) to the 2nd floor and then follow the hallway around to the office.
 						</p>
+
+						<div className='paragraph'>
+						<h2>Patient Portal</h2>
+						<p>
+							The system also allows us to communicate with you electronically, 
+							through a portal that protects your personal information in a way that is 
+							compliant with the latest healthcare privacy laws and regulations. 
+							Through this portal, you can send us secure messages, 
+							as well as receive messages and test results from us. 
+							If you are interested in communicating with us through the portal please contact the office. 
+							As long as we have an email address on file in your chart already we can set up a portal account for you. 
+						</p>
+						<p className="italics">
+							Never use the portal for urgent questions or emergencies. It may take a day to respond to you, 
+							or several days during the weekend or holidays.
+						</p>
+						<a className="button" href="https://www.myupdox.com/portal/thevillagedoctor/html/index.html">Enter Patient Portal</a>
+					</div>
 					</div>
 						
 				</div>

@@ -4,6 +4,7 @@
     text-align: center;
     font-family: "Font-Regular";
     color: #124966;
+    padding-bottom: 100px;
 }
 
 .infoBody {
@@ -123,4 +124,55 @@
 
 #info2 p {
     text-align: left;
+}
+
+@media print {
+    .typical-content {
+        margin: 0;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .typical-content h1 {
+        margin: 50px 0 20px 0;
+        font-size: 40px;
+    }
+
+    .typical-content h2 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .typical-content .infoBody {
+        padding: 20px;
+    }
+
+    .typical-content .infoBox p {
+        font-size: 10px;
+    }
+
+    .typical-content .infoBox #map {
+        width: 80%;
+        margin: 10 auto;
+    }
+
+    .flexContainer {
+        display: none;
+    }
+
+    .typical-content p {
+        font-size: 12px;
+    }
+
+    .typical-content .paragraph {
+        break-inside: avoid;
+    }
+
+    .button {
+        display: none;
+    }
+
+    ul li {
+        font-size: 12px;
+    }
 }
