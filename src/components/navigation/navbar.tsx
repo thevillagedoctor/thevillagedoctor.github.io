@@ -24,8 +24,6 @@ export default class NavBar extends React.Component<navBarProps, {}> {
 		super(props)
 		this.returnUp = this.returnUp.bind(this);
 		this.burgerMenu = this.burgerMenu.bind(this);
-
-		console.log('the window should scroll here!')
 	}
 
 	returnUp() {

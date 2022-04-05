@@ -23,15 +23,11 @@ export default class ResourceList extends React.Component <{}, resourceListState
             .then(response => response.text())
             .then(data => {
                 const resourceArray = data.split('\n').filter(x => x !== '\r' && x !== '');
-                console.log(resourceArray);
                 this.setState({resourceList: (resourceArray.map(x => JSON.parse(x)))});
             });
     }
 
     render() {
-
-        console.log(this.state.resourceList);
-
         return(
             <div>
                 {this.state.resourceList.map(resource => {

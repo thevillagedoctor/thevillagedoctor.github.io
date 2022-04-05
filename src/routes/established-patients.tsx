@@ -53,7 +53,7 @@ export function EstablishedPatients() {
 							Never use the portal for urgent questions or emergencies. It may take a day to respond to you, 
 							or several days during the weekend or holidays.
 						</p>
-						<a className="button" href="https://www.myupdox.com/portal/thevillagedoctor/html/index.html">Enter Patient Portal</a>
+						<a className="button" href="https://www.myupdox.com/portal/thevillagedoctor/html/index.html" rel="noreferrer" target={"_blank"}>Enter Patient Portal</a>
 					</div>
 					<div className='paragraph'>
 						<h2>Online Payments</h2>
@@ -66,7 +66,7 @@ export function EstablishedPatients() {
 						<p className='italics'>
 							If you should currently be experiencing monetary hardships due to job loss, covid, etc., then please contact the office to work out a payment plan.
 						</p>
-						<a className="button" href="https://quickclick.com/r/vi9b2">Make an Online Payment</a>	
+						<a className="button" href="https://quickclick.com/r/vi9b2" rel="noreferrer" target={"_blank"}>Make an Online Payment</a>	
 					</div>
 				</div>
 			</div>
