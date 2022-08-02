@@ -26,11 +26,12 @@ export default class App extends React.Component < {}, appState> {
     this.setState({navMenuVis: visible});
   }
 
+ 
 	render() {
 		return (
             <div onClick={this.hideMobileMenu}>
                 <NavBar navMenuVis={this.state.navMenuVis} mobileMenuCallback={this.mobileMenu}/>
-                <Outlet />
+                <Outlet/>
             </div>
 		)
 	}

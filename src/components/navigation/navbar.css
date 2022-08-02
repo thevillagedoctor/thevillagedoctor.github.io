@@ -1,14 +1,21 @@
-#nav-bar {
+.nav-bar {
     width: 250px;
     height: 100vh;
     font-family: 'Font-Regular';
     text-align: center;
-    background-color: #00a2d7;
     position: fixed;
     top: 0;
     left: 0;
     color: #F1F2F5;
     font-size: 20px;
+}
+
+#contrast-true {
+    background-color: #124966;
+}
+
+#contrast-false {
+    background-color: #00a2d7;
 }
 
 #logo-container {
@@ -19,7 +26,7 @@ a {
     text-decoration: none;
 }
 
-#nav-bar a:visited {
+.nav-bar a:visited {
     color: #F1F2F5;
     text-decoration: none;
 }
@@ -82,12 +89,12 @@ a {
     width: max-content;
 }
 
-#desktopNav .navbutton:hover {
+#contrast-false #desktopNav .navbutton:hover {
     color: #124966;
     cursor: pointer;
 }
 
-#desktopNav .navbutton::after {
+#contrast-false #desktopNav .navbutton::after {
     content: '';
     margin-top: 5px;
     display: block;
@@ -97,7 +104,27 @@ a {
     transition: width .3s;
 }
 
-#desktopNav .navbutton:hover::after {
+#contrast-false #desktopNav .navbutton:hover::after {
+    width: 100%;
+    transition: width .3s;
+} 
+
+#contrast-true #desktopNav .navbutton:hover {
+    color:#F1F2F5;
+    cursor: pointer;
+}
+
+#contrast-true #desktopNav .navbutton::after {
+    content: '';
+    margin-top: 5px;
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #F1F2F5;
+    transition: width .3s;
+}
+
+#contrast-true #desktopNav .navbutton:hover::after {
     width: 100%;
     transition: width .3s;
 } 
@@ -125,17 +152,17 @@ a {
     padding: 0px 10px 0px 0px;
 }
 
-#nav-bar #phoneNum {
+.nav-bar #phoneNum {
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
-#nav-bar #phoneNum a {
+.nav-bar #phoneNum a {
     color: #F1F2F5
 }
 
-#nav-bar #phoneNum a:visited {
+.nav-bar #phoneNum a:visited {
     color: #F1F2F5;
 } 
 
@@ -153,6 +180,20 @@ a {
 
 #mobileNavtrue .navbutton {
     display: none;
+}
+
+#contrast-false #contrastToggle {
+    margin-top: 30px;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#contrast-true #contrastToggle {
+    margin-top: 30px;
+    color: #F1F2F5;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 @media screen and (max-height: 800px) {
@@ -202,7 +243,7 @@ a {
 }
 
 @media print {
-    #nav-bar {
+    .nav-bar {
         display: none;
     }
 }

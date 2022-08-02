@@ -17,6 +17,7 @@ export function Contact() {
 							<img id="phoneIcon" src="./images/phoneBlue.png" alt="phone icon"/>
 							<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 							<p>CALL FOR AN APPOINTMENT</p>
+							<p id="faxNum">Fax: (734) 554-4574</p>
 							<p id="hours">Hours:</p>
 							<Hours />
 						</div>
@@ -36,7 +37,7 @@ export function Contact() {
 						</p>
 						<p>
 							For an urgent health concern outside of our business hours please call the office number 
-							and you will be connected directly with Dr. Grimm's voice mail. Leave a message and he will call you back as soon as he is able.
+							and you will be connected directly with Dr. Grimm's voicemail. Leave a message and he will call you back as soon as he is able.
 						</p>
 						<p className='bold'>
 							For a medical emergency please call 911.
@@ -58,7 +59,7 @@ export function Contact() {
 						<div className='paragraph'>
 						<h2>Patient Portal</h2>
 						<p>
-							The system also allows us to communicate with you electronically, 
+							We can communicate with you electronically, 
 							through a portal that protects your personal information in a way that is 
 							compliant with the latest healthcare privacy laws and regulations. 
 							Through this portal, you can send us secure messages, 

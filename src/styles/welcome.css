@@ -79,6 +79,10 @@
     color: #124966;
 }
 
+.welcome-page .infoBox #faxNum {
+    margin-top: 15px;
+}
+
 .welcome-page .infoBox #hours {
     margin-top: 15px;
     margin-bottom: 0px;

@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
     .resource-page ul {
-        font-size: 14px; 
+        font-size: 12px; 
+        padding-left: 20px;
     }
 
     .resource-page p {

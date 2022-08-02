@@ -6,13 +6,14 @@ export function NewPatients() {
 	return (
 		<div>
 			<div className="typical-content patients-page">
-				<h1>New Patient Resourses</h1>
+				<h1>New Patient Resources</h1>
 				<div className="infoBody">	
 					<div className="infoBox">
 							<div>
 								<img id="phoneIcon" src="./images/phoneBlue.png" alt="phone icon"/>
 								<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 								<p>CALL FOR AN APPOINTMENT</p>
+								<p id="faxNum">Fax: (734) 554-4574</p>
 								<p id="hours">Hours:</p>
 								<p>Monday ... 8am - 8pm</p>
 								<p>Tuesday ... 8am - 8pm</p>

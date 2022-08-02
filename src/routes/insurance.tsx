@@ -39,9 +39,8 @@ export class Insurance extends React.Component <{}, insuranceState> {
 				<div className="typical-content insurance-page">
 				<h1>Insurance Information</h1>
 					<div className="infoBody">
-						<p>
-							Below are lists of common insurance plans that we either accept or do not.  If you have questions about other
-							insurance plans, please give our office a call and we would be happy to work with you.
+						<p className="italics">
+							If you have questions regarding any insurance plans not listed, please give our office a call and we would be happy to work with you.
 						</p>
 						<div className='paragraph'>
 							<h2>Insurance Plans We Accept</h2>

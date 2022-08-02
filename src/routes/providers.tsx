@@ -17,7 +17,7 @@ export function Providers() {
               His bachelor's degree is from The Johns Hopkins University, and his medical degree is from the University of Pennsylvania. 
               He completed his residency at the University of Michigan, where he served as chief resident in his final year. 
               He has been in practice in the area since 1997. He has taught medical students from both the University of Michigan and Wayne State University, 
-              as well as residents at Beaumont (formerly Oakwood), St Mary Mercy Hospital, and Providence Hospital.".
+              as well as residents at Beaumont (formerly Oakwood), St Mary Mercy Hospital, and Providence Hospital.
             </p>
             <p>
               Dr. Grimm believes his role is to be a partner with his patients in their health care. 

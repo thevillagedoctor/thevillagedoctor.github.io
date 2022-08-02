@@ -20,6 +20,7 @@ export function Welcome() {
 							<img id="phoneIcon" src="./images/phoneBlue.png" alt="phone icon"/>
 							<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 							<p>CALL FOR AN APPOINTMENT</p>
+							<p id="faxNum">Fax: (734) 554-4574</p>
 							<p id="hours">Hours:</p>
 							<Hours />
 						</div>
@@ -52,13 +53,19 @@ export function Welcome() {
 				<div className="infoParagraph" id="infoP2">
 					<h1>Make Yourself at Home</h1>
 					<p>
-					After signing in at the Reception Desk please make yourself comfortable in our waiting room.
-					There is a children's area where the little ones are welcome to read, 
-					play or color while still being close to a parent or guardian. 
-					There is a desk for doing homework and a quiet area with cards and "older" games. 
-					Some of these games have smaller parts which might be dangerous for young children to play with so please 
-					keep them in the quiet area. If you should need to use the internet while here we have a guest network available.
+						After signing in at the Reception Desk please make yourself comfortable in our waiting room.
+						There is a children's area where the little ones are welcome to read, 
+						play or color while still being close to a parent or guardian. 
+						There is a desk for doing homework and a quiet area with cards and "older" games. 
+						Some of these games have smaller parts which might be dangerous for young children to play with so please 
+						keep them in the quiet area. If you should need to use the internet while here we have a guest network available.
 					</p>	
+					<p className="bold">
+						Please note, that due to COVID-19, there have been some changes made to the waiting room.  The toys and other "high-touch" items 
+						have temporarily been removed to ensure the safest possible experience for our patients.  We also make an effort to bring each 
+						patient back to a sanitized exam room as soon as they check in, so no one is spending too much time in the common area. 
+						Our normal waiting room will return once we are comfortable all of our patients will be safe. 
+					</p>
 				</div>
 			</div>
 		</div>

@@ -1,5 +1,5 @@
 @media screen and (max-width: 1250px) {   
-    #nav-bar {
+    .nav-bar {
         height: 100px;
         width: 100vw;
         display: flex;
@@ -70,9 +70,24 @@
         position: fixed;
         bottom: 0;
         width: 100vw;
-        height: 90px;
-        background-color: #00a2d7;
+        height: 100px;
         text-align: center;
+    }
+
+    #contrast-false #footer {
+        background-color: #00a2d7;
+    }
+
+    #contrast-true #footer {
+        background-color: #124966;
+    }
+
+    #footer #phoneNum {
+        margin-top: 13px;
+    }
+
+    #footer #contrastToggle {
+        margin-top: 18px;
     }
 
     #return-up {
@@ -86,8 +101,8 @@
 
 }
 
-@media screen and (max-width: 600px) { 
-    #nav-bar {
+@media screen and (max-width: 768px) { 
+    .nav-bar {
         height: 75px;
     }
  

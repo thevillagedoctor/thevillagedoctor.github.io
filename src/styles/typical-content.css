@@ -74,6 +74,11 @@
     color: #124966;
 }
 
+.infoBox #faxNum {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
 .infoBox #phoneIcon {
     height: 20px;
     width: auto;
@@ -82,7 +87,7 @@
 }
 
 .infoBox #hours {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 0px;
 }
 

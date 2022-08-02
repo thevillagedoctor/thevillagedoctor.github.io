@@ -19,11 +19,23 @@ type navBarProps = {
 	mobileMenuCallback: Function,
 }
 
-export default class NavBar extends React.Component<navBarProps, {}> {
+type navBarState = {
+	highContrast: boolean,
+	contrastText: string,
+	logoSource: string,
+}
+
+export default class NavBar extends React.Component<navBarProps, navBarState> {
 	constructor(props) {
 		super(props)
+		this.state = {
+			highContrast: false,
+			contrastText: 'CLICK HERE FOR HIGH CONTRAST',
+			logoSource: "./images/BuildingLogo.jpg",
+		}
 		this.returnUp = this.returnUp.bind(this);
 		this.burgerMenu = this.burgerMenu.bind(this);
+		this.toggleContrast = this.toggleContrast.bind(this);
 	}
 
 	returnUp() {
@@ -49,6 +61,26 @@ export default class NavBar extends React.Component<navBarProps, {}> {
 		return <NavButton key={key} buttonName={key} url={url} onClick={this.props.mobileMenuCallback}/>
 	}
 
+	
+
+	toggleContrast() {
+
+		if (this.state.highContrast === false) {
+			this.setState({
+				highContrast: true,
+				contrastText: 'CLICK HERE FOR LOW CONTRAST',
+				logoSource: "./images/BuildingLogoContrast.jpg"	
+			});
+		} else {
+			this.setState({
+				highContrast: false,
+				contrastText: 'CLICK HERE FOR HIGH CONTRAST',
+				logoSource: "./images/BuildingLogo.jpg"	
+			});
+		}
+
+	}
+
 	render() {
 		var buttons = [
 			this.renderButton('Welcome', '/'),
@@ -62,7 +94,7 @@ export default class NavBar extends React.Component<navBarProps, {}> {
 		];
 
 		return (
-			<div id="nav-bar">
+			<div className="nav-bar" id={`contrast-${this.state.highContrast}`}>
 				<Link to="/"> 
 					<div id="logo-container">
 						<img id="logo" src="./images/Logo.png" alt="Village Doctor Logo"/>
@@ -88,6 +120,9 @@ export default class NavBar extends React.Component<navBarProps, {}> {
 						<img id="phoneIcon" src="./images/phone.png" alt="phone icon"/>
 						<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 						<p>CALL FOR AN APPOINTMENT</p>
+					</div>
+					<div id="contrastToggle">
+						<p onClick={this.toggleContrast}>{this.state.contrastText}</p>
 					</div>
 				</div>
 			</div>

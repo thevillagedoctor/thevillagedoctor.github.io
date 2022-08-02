@@ -1,9 +1,9 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 866px) {
     
     .patients-page .infoBox {
         width: 90%;
         max-width: 400px;
-        height: 300px;
+        height: 400px;
         float: none;
         margin: 20px auto;
     }
@@ -11,5 +11,24 @@
     .patients-page .button {
         width: 290px;
         font-size: 18px;
+    }
+
+    .patients-page .infoBox #phoneNum {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .patients-page .infoBox {
+        height: 310px;
+        max-width: 300px;
+    }
+
+    .patients-page .infoBox #faxNum {
+        margin-top: 15px;
+    }
+
+    .patients-page .infoBox #hours {
+        margin-top: 15px;
     }
 }

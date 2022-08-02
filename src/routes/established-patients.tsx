@@ -6,13 +6,14 @@ export function EstablishedPatients() {
 	return (
 		<div>
 			<div className="typical-content patients-page">
-				<h1>Established Patient Resourses</h1>
+				<h1>Established Patient Resources</h1>
 				<div className="infoBody">	
 					<div className="infoBox">
 							<div>
 								<img id="phoneIcon" src="./images/phoneBlue.png" alt="phone icon"/>
 								<p id="phoneNum"><a href="tel:7348791068">(734) 879-1068</a></p>
 								<p>CALL FOR AN APPOINTMENT</p>
+								<p id="faxNum">Fax: (734) 554-4574</p>
 								<p id="hours">Hours:</p>
 								<p>Monday ... 8am - 8pm</p>
 								<p>Tuesday ... 8am - 8pm</p>
@@ -41,7 +42,7 @@ export function EstablishedPatients() {
 					<div className='paragraph'>
 						<h2>Patient Portal</h2>
 						<p>
-							The system also allows us to communicate with you electronically, 
+							We can communicate with you electronically, 
 							through a portal that protects your personal information in a way that is 
 							compliant with the latest healthcare privacy laws and regulations. 
 							Through this portal, you can send us secure messages, 
@@ -64,9 +65,9 @@ export function EstablishedPatients() {
 							Please note, you can still pay your bill via mail (card or check) and in the office (card, cash, check, or apple/google pay).
 						</p>
 						<p className='italics'>
-							If you should currently be experiencing monetary hardships due to job loss, covid, etc., then please contact the office to work out a payment plan.
+							If you are experiencing financial hardships due to job loss, covid, etc., then please contact the office to work out a payment plan.
 						</p>
-						<a className="button" href="https://quickclick.com/r/vi9b2" rel="noreferrer" target={"_blank"}>Make an Online Payment</a>	
+						<a className="button" href="https://pay.balancecollect.com/m/chvfm" rel="noreferrer" target={"_blank"}>Make an Online Payment</a>	
 					</div>
 				</div>
 			</div>

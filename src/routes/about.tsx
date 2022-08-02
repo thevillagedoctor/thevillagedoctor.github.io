@@ -32,13 +32,13 @@ export function About() {
 						</p>
 						<p>
 							We understand that when our patients are sick enough to require hospitalization, that is when they need us the most. 
-							That is why we personally provide hospital care for the patients in our practice, 
+							That is why Dr. Grimm personally rounds at St. Mary's in Livonia, providing hospital care for our patients in our practice, 
 							rather than turning them over to a "hospitalist" who doesn't know them. If you need to be in the hospital, we will be there, 
 							providing the same personal care that you have come to know from the office.
 						</p>
 						<p>
 							We believe that we should help you with all of your healthcare needs, and we have been designated as a Patient-Centered Medical Home.
-							Click <a href="./pdfs/pcmh-fact-sheet" target="_blank">here</a> to learn more about Patient-Centered Medical Homes. 
+							Click <a href="./pdfs/pcmh-fact-sheet.pdf" target="_blank">here</a> to learn more about Patient-Centered Medical Homes. 
 						</p>
 						<p>
 							Here at The Village Doctor, we truly do provide <span className="italics">evidence-based medicine, old-fashioned care</span>.

@@ -39,6 +39,7 @@
 
     #slogan {
         margin: 150px 0 0 0;
+        padding: 0px 20px;
     }
 
     #slogan h2 {
@@ -92,6 +93,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #slogan {
+        margin-top: 100px;
+    }
+
+    .welcome-page #buildingLogo {
+        margin-top: 40px;
+    }
+
     #contactInfo {
         margin: 0 auto;
     }
@@ -104,12 +113,19 @@
     .welcome-page .infoBox {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        min-width: 320px;
+        width: 80%;
+        max-width: 400px;
+        padding: 10px;
     }
 
+
     .welcome-page .infoBox #map {
-        width: 90%;
-        max-width: 300px;
+        width: 75%;
+        margin: 5px auto;
+    }
+
+    .welcome-page .infoBox .button {
+        font-size: 12px;
     }
 
     .infoParagraph {
