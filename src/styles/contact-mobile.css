@@ -10,11 +10,16 @@
 }
 
 @media screen and (max-width: 768px) {
+    .contact-page .infoBody {
+        margin: 0 auto;
+    }
+
     .contact-page .infoBox {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
+        width: 100%;
         max-width: 400px;
-        padding: 10px 0;
+        padding: 10px;
     }
 
     .contact-page .infoBox p {

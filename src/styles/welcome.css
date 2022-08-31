@@ -38,7 +38,6 @@
 }
 
 #contactInfo {
-    text-align: center;
     grid-column: 5 / 7;
     grid-row: 1; 
 }
@@ -47,12 +46,14 @@
     padding: 10px 20px;
     width: 400px;
     border: solid 5px #124966;
+    border-radius: 5px;
     font-size: 14px;
     text-align: left;
     margin: 10px auto 20px auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
+    /* background-color: #dcf0f7; */
 }
 
 .welcome-page .infoBox #phoneIcon {
@@ -130,24 +131,24 @@
 
 #infoP1 {
     grid-column: 1 / 4;
-    grid-row: -2;
+    grid-row: -3;
 }
 
 #infoP2 {
     grid-column: 4 / 7;
-    grid-row: -1;
+    grid-row: -2;
 }
 
 #image1 {
     grid-column: 4 / 7;
-    grid-row: -2;
-    border: inset 5px #00a2d7;
+    grid-row: -3;
+    border: solid 5px #124966;
 }
 
 #image2 {
     grid-column: 1 / 4;
-    grid-row: -1;
-    border: inset 5px #00a2d7;
+    grid-row: -2;
+    border: solid 5px #124966;
 }
 
 .infoParagraph {
@@ -163,8 +164,13 @@
 
 .welcome-page img {
     width: 75%;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 160px auto 0 auto;
+}
+
+#covidDisclaimer {
+    grid-column: 1/-1;
+    margin: 100px 0px 0px 0px;
 }
 
 @media screen and (max-height: 800px) {

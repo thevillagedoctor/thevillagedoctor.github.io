@@ -5,8 +5,8 @@
 }
 
 .imageGalery img {
-    border-radius: 10px;
-    border: inset 5px #00a2d7;
+    border-radius: 5px;
+    border: solid 5px #124966;
 }
 
 figure {

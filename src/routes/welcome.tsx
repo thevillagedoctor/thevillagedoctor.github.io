@@ -60,6 +60,8 @@ export function Welcome() {
 						Some of these games have smaller parts which might be dangerous for young children to play with so please 
 						keep them in the quiet area. If you should need to use the internet while here we have a guest network available.
 					</p>	
+				</div>
+				<div className="infoParagraph" id="covidDisclaimer">
 					<p className="bold">
 						Please note, that due to COVID-19, there have been some changes made to the waiting room.  The toys and other "high-touch" items 
 						have temporarily been removed to ensure the safest possible experience for our patients.  We also make an effort to bring each 
