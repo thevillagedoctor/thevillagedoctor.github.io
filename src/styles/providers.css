@@ -2,8 +2,8 @@
     width: 300px;
     float: right;
     margin: 0 0 30px 30px;
-    border: solid 5px #124966;
-    border-radius: 10px;
+    /* border: solid 5px #124966;
+    border-radius: 10px; */
 }
 
 .provider {

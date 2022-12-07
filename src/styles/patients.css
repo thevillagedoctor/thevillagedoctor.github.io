@@ -5,11 +5,11 @@
 .patients-page .infoBox{
     float: right;
     width: 400px;
-    padding: 10px 20px;
+    padding: 20px;
     border: solid 5px #124966;
     font-size: 18px;
     text-align: left;
-    height: 390px;
+    height: 415px;
     margin: 10px 0 30px 30px;
 }
 
