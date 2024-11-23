@@ -38,7 +38,7 @@ export function Welcome() {
 						</div>
 					</div>
 				</div>
-				{/* <div className="infoParagraph" id="infoP1">
+				<div className="infoParagraph" id="infoP1">
 					<h1>Welcome...</h1>
 					<WelcomeText1 />
 				</div>
@@ -50,7 +50,7 @@ export function Welcome() {
 				</div>
 				<div className="infoParagraph" id="covidDisclaimer">
 					<WelcomeDisclaimer />
-				</div> */}
+				</div>
 			</div>
 		</div>
 	);

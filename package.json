@@ -8,7 +8,6 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "fs": "^0.0.1-security",
-    "gh-pages": "^6.2.0",
     "nth-check": ">=2.0.1",
     "postcss": ">=8.2.13",
     "react": "^17.0.2",
@@ -21,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -58,6 +58,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.38",
+    "gh-pages": "^6.2.0",
     "typescript": "^4.5.4"
   },
   "browser": {

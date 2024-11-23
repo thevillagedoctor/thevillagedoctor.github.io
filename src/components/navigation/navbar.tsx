@@ -104,12 +104,12 @@ export default class NavBar extends React.Component<navBarProps, navBarState> {
 						</div>
 					</div>
 				</Link>
-				{/* <nav id="desktopNav">{buttons}</nav> */}
-				{/* <nav id={"mobileNav" + this.props.navMenuVis}>{buttons}</nav> */}
+				<nav id="desktopNav">{buttons}</nav>
+				<nav id={"mobileNav" + this.props.navMenuVis}>{buttons}</nav>
 				<div id="icons">
 					<img id="return-up" onClick={this.returnUp} src="./images/return-up-arrow.png" alt="Up Arrow" />
 					<img id="return-up-mobile" onClick={this.returnUp} src="./images/return-up-arrow-white.png" alt="Up Arrow" />
-					{/* <img className="icon" onClick={this.burgerMenu} src="./images/bars-solid.png" alt="Menu Bar" /> */}
+					<img className="icon" onClick={this.burgerMenu} src="./images/bars-solid.png" alt="Menu Bar" />
 				</div>
 				<div id="footer">
 					<div>
