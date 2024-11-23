@@ -1,0 +1,1 @@
+export { default as AboutText } from './about-text';

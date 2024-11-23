@@ -26,11 +26,20 @@
     color: #124966;
 }
 
+#slogan h3 {
+    font-family: "Font-Italic";
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px auto 40px auto;
+    color: #124966;
+}
+
 .welcome-page #buildingLogo {
     width: auto;
-    max-width: 95%;
+    max-width: 80%;
     height: auto;
-    max-height: 95%;
+    max-height: 80%;
     grid-column: 1 / 5;
     grid-row: 1;
     margin-top: 0px;

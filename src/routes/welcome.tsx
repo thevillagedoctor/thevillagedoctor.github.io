@@ -1,7 +1,7 @@
 import React from 'react';
 import 'styles/welcome.css';
 import 'styles/welcome-mobile.css';
-import { Hours } from 'components';
+import { Hours, WelcomeDisclaimer, WelcomeText1, WelcomeText2 } from 'components';
 
 export function Welcome() {
 	return (
@@ -9,6 +9,9 @@ export function Welcome() {
 			<div id='slogan'>
 				<h2>Evidence-Based Medicine...</h2>
 				<h2>Old-Fashioned Care</h2>
+				<br/>
+				<br/>
+				<h3>Our website is being updated to reflect the upcoming changes in the practice.  Please visit again soon!</h3>
 			</div>
 			<div className="welcome-page" >
 				<img id="buildingLogo" src="./images/BuildingLogo.jpg" alt="Building"/>
@@ -35,40 +38,19 @@ export function Welcome() {
 						</div>
 					</div>
 				</div>
-				<div className="infoParagraph" id="infoP1">
+				{/* <div className="infoParagraph" id="infoP1">
 					<h1>Welcome...</h1>
-					<p>
-						Welcome to The Village Doctor at Cherry Hill, the Family Practice of Dr. Ken Grimm. 
-						We specialize in offering evidence-based medicine and old-fashioned care to our patients of all ages. 
-						We are very happy that you have visited us here on the web. Feel free to look around. 
-						We are sure you will be happy with what you find, and we look forward to welcoming you to the practice in person soon!
-					</p>	
-					<p>
-						The practice can be called The Village Doctor, The Village Doctor at Cherry Hill, or Cherry Hill Village Family Medicine. 
-						Whichever of the names you might hear or read you can rest assured that they are all the same practice.
-					</p>
+					<WelcomeText1 />
 				</div>
 				<img id="image1" src="./images/reception.jpg" alt="Reception Desk"/>
 				<img id="image2" src="./images/waitingroom.jpg" alt="Waiting Room"/>
 				<div className="infoParagraph" id="infoP2">
 					<h1>Make Yourself at Home</h1>
-					<p>
-						After signing in at the Reception Desk please make yourself comfortable in our waiting room.
-						There is a children's area where the little ones are welcome to read, 
-						play or color while still being close to a parent or guardian. 
-						There is a desk for doing homework and a quiet area with cards and "older" games. 
-						Some of these games have smaller parts which might be dangerous for young children to play with so please 
-						keep them in the quiet area. If you should need to use the internet while here we have a guest network available.
-					</p>	
+					<WelcomeText2 />	
 				</div>
 				<div className="infoParagraph" id="covidDisclaimer">
-					<p className="bold">
-						Please note, that due to COVID-19, there have been some changes made to the waiting room.  The toys and other "high-touch" items 
-						have temporarily been removed to ensure the safest possible experience for our patients.  We also make an effort to bring each 
-						patient back to a sanitized exam room as soon as they check in, so no one is spending too much time in the common area. 
-						Our normal waiting room will return once we are comfortable all of our patients will be safe. 
-					</p>
-				</div>
+					<WelcomeDisclaimer />
+				</div> */}
 			</div>
 		</div>
 	);

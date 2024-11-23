@@ -2,3 +2,8 @@ export * from './navigation';
 export * from './app'; 
 export * from './hours';
 export * from './resource-list';
+export * from './welcome-text';
+export * from './about-text';
+export * from './providers-text';
+export * from './patient-text';
+export * from './contact-text';

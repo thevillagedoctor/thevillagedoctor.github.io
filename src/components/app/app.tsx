@@ -28,7 +28,7 @@ export default class App extends React.Component < {}, appState> {
 
  
 	render() {
-		return (
+		return (  
             <div onClick={this.hideMobileMenu}>
                 <NavBar navMenuVis={this.state.navMenuVis} mobileMenuCallback={this.mobileMenu}/>
                 <Outlet/>
