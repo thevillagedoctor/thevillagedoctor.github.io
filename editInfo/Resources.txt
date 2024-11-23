@@ -1,0 +1,8 @@
+{"text": "Headstart is a program to provide resources for families with young children, to support their early development:", "link": "www.michheadstart.org"}
+{"text": "Patient Education/Handouts regarding a wide variety of health conditions:", "link": "www.patienteducation.vivacare.com/toolkit"}
+{"text": "Mayo Clinic Health information site:", "link": "www.mayoclinic.com/health-information"}
+{"text": "Web MD site: information about health, diseases, medications:", "link": "www.webmd.com"}
+{"text": "Information about diseases, prevention/wellness, medications, and useful health tools:", "link": "www.familydoctor.org"}
+{"text": "Health information resources from the National Institutes for Health:", "link": "www.health.nih.gov"}
+{"text": "Information about vaccinations:", "link": "www.vaccines.gov"}
+{"text": "Information specifically for our younger patients and their families:", "link": "www.healthychildren.org"}
