@@ -6,3 +6,4 @@ export * from './new-patients';
 export * from './insurance';
 export * from './resources';
 export * from './contact';
+export * from './direct-primary-care';

@@ -7,3 +7,4 @@ export * from './about-text';
 export * from './providers-text';
 export * from './patient-text';
 export * from './contact-text';
+export * from './dpc-text';

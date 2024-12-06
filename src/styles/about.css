@@ -4,6 +4,13 @@
     margin: 50px 30px 30px 30px;
 }
 
+.imageGalery {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* .imageGalery img {
     border-radius: 5px;
     border: solid 5px #124966;

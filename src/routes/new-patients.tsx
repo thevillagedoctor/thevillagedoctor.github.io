@@ -21,8 +21,10 @@ export function NewPatients() {
 					</div>
 					<h2>Make an Appointment</h2>
 					<NewAppointmentText/>
-					<a className="button" href="./pdfs/adult-form-set.pdf" target="_blank">New Patient Adult Form (ages 18+)</a>
-					<a className="button" href="./pdfs/pediatric-form-set.pdf" target="_blank">New Patient Pediatrics Form (ages 0-17)</a>
+					<div className='button-container'>
+						<a className="button" href="https://thevillagedoctor.hint.com/signup" target="_blank" rel="noreferrer">New Patient Registration</a>
+						<a className="button" href="./pdfs/Patient Contract December 2024.pdf" target="_blank">View Contract</a>
+					</div>
 					<h2>Email</h2>
 					<EmailText/>
 				</div>

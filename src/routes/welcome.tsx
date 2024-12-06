@@ -9,9 +9,9 @@ export function Welcome() {
 			<div id='slogan'>
 				<h2>Evidence-Based Medicine...</h2>
 				<h2>Old-Fashioned Care</h2>
+				{/* <br/>
 				<br/>
-				<br/>
-				<h3>Our website is being updated to reflect the upcoming changes in the practice.  Please visit again soon!</h3>
+				<h3>Our website is being updated to reflect the upcoming changes in the practice.  Please visit again soon!</h3> */}
 			</div>
 			<div className="welcome-page" >
 				<img id="buildingLogo" src="./images/BuildingLogo.jpg" alt="Building"/>
@@ -45,8 +45,10 @@ export function Welcome() {
 				<img id="image1" src="./images/reception.jpg" alt="Reception Desk"/>
 				<img id="image2" src="./images/waitingroom.jpg" alt="Waiting Room"/>
 				<div className="infoParagraph" id="infoP2">
-					<h1>Make Yourself at Home</h1>
+					<h1>Proud to be Canton’s First Direct Primary Care Practice!</h1>
 					<WelcomeText2 />	
+					<p>To learn about Direct Primary Care in general and how it is being implemented at The Village Doctor, 
+					you can read more <a href="/direct-primary-care">here</a>.</p>
 				</div>
 				<div className="infoParagraph" id="covidDisclaimer">
 					<WelcomeDisclaimer />

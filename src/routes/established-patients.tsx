@@ -22,15 +22,19 @@ export function EstablishedPatients() {
 					<div className='paragraph'>
 						<h2>Make an Appointment</h2>
 						<EstAppointmentText/>
+						{/* <a className="button" href="link" rel="noreferrer" target={"_blank"}>Schedule Appointment</a> */}
 					</div>
 					<div className='paragraph'>
-						<h2>Patient Portal</h2>
+						<h2>Electronic Communication</h2>
 						<PatientPortalText/>
 						<p className="italics">
 							Never use the portal for urgent questions or emergencies. It may take a day to respond to you, 
 							or several days during the weekend or holidays.
 						</p>
-						<a className="button" href="https://www.myupdox.com/portal/thevillagedoctor/html/index.html" rel="noreferrer" target={"_blank"}>Enter Patient Portal</a>
+						<div className='button-container'>
+							<a className="button" href="https://thevillagedoctor.hint.com/login/request" rel="noreferrer" target={"_blank"}>Hint (New Patient Portal)</a>
+							<a className="button" href="https://www.myupdox.com/portal/thevillagedoctor/html/index.html" rel="noreferrer" target={"_blank"}>Updox (Old Patient Portal)</a>
+						</div>
 					</div>
 					<div className='paragraph'>
 						<h2>Online Payments</h2>

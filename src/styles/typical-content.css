@@ -43,6 +43,16 @@
     font-family: 'Font-Bold';
 }
 
+.normal {
+    font-family: 'Font-Regular';
+}
+
+.button-container {
+    margin: auto 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .button {
     display: block;
     width: max-content;
@@ -129,6 +139,15 @@
 
 #info2 p {
     text-align: left;
+}
+
+p a {
+    color:#00a2d7;
+}
+
+p a:hover {
+    font-family: "Font-Italic";
+    letter-spacing: 1.4px;
 }
 
 @media print {

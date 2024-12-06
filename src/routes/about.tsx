@@ -14,10 +14,6 @@ export function About() {
 					<div className="infoBody">
 						<AboutText />
 						<p>
-							We believe that we should help you with all of your healthcare needs, and we have been designated as a Patient-Centered Medical Home.
-							Click <a href="./pdfs/pcmh-fact-sheet.pdf" target="_blank">here</a> to learn more about Patient-Centered Medical Homes. 
-						</p>
-						<p>
 							Here at The Village Doctor, we truly do provide <span className="italics">evidence-based medicine, old-fashioned care</span>.
 						</p>
 					</div>
@@ -34,8 +30,6 @@ export function About() {
 						<img src="./images/procedure-room.jpg" alt="Procedure Room"/>
 							<figcaption>Procedure Room</figcaption>
 						</figure>
-						
-						
 					</div>
 				</div>
 			</div>
