@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f69e354.css",
-    "main.js": "/static/js/main.213691fd.js",
-    "static/js/453.8c03e5c1.chunk.js": "/static/js/453.8c03e5c1.chunk.js",
+    "main.css": "/static/css/main.d3678922.css",
+    "main.js": "/static/js/main.0be4f4ac.js",
+    "static/js/453.1f878926.chunk.js": "/static/js/453.1f878926.chunk.js",
     "static/media/LibreBaskerville-Italic.ttf": "/static/media/LibreBaskerville-Italic.3cbbed9ea170d3b9e426.ttf",
     "static/media/LibreBaskerville-Bold.ttf": "/static/media/LibreBaskerville-Bold.6e5f70731aeed7c6e895.ttf",
     "static/media/LibreBaskerville-Regular.ttf": "/static/media/LibreBaskerville-Regular.715e9cea90f54d5a4093.ttf",
     "static/media/TrajanPro-Bold.otf": "/static/media/TrajanPro-Bold.3f14e0ffe7b54e407289.otf",
     "index.html": "/index.html",
-    "main.2f69e354.css.map": "/static/css/main.2f69e354.css.map",
-    "main.213691fd.js.map": "/static/js/main.213691fd.js.map",
-    "453.8c03e5c1.chunk.js.map": "/static/js/453.8c03e5c1.chunk.js.map"
+    "main.d3678922.css.map": "/static/css/main.d3678922.css.map",
+    "main.0be4f4ac.js.map": "/static/js/main.0be4f4ac.js.map",
+    "453.1f878926.chunk.js.map": "/static/js/453.1f878926.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f69e354.css",
-    "static/js/main.213691fd.js"
+    "static/css/main.d3678922.css",
+    "static/js/main.0be4f4ac.js"
   ]
 }
