@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d85c740f.css",
-    "main.js": "/static/js/main.f4e7eb94.js",
+    "main.js": "/static/js/main.110ab729.js",
     "static/js/453.1f878926.chunk.js": "/static/js/453.1f878926.chunk.js",
     "static/media/LibreBaskerville-Italic.ttf": "/static/media/LibreBaskerville-Italic.3cbbed9ea170d3b9e426.ttf",
     "static/media/LibreBaskerville-Bold.ttf": "/static/media/LibreBaskerville-Bold.6e5f70731aeed7c6e895.ttf",
@@ -9,11 +9,11 @@
     "static/media/TrajanPro-Bold.otf": "/static/media/TrajanPro-Bold.3f14e0ffe7b54e407289.otf",
     "index.html": "/index.html",
     "main.d85c740f.css.map": "/static/css/main.d85c740f.css.map",
-    "main.f4e7eb94.js.map": "/static/js/main.f4e7eb94.js.map",
+    "main.110ab729.js.map": "/static/js/main.110ab729.js.map",
     "453.1f878926.chunk.js.map": "/static/js/453.1f878926.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d85c740f.css",
-    "static/js/main.f4e7eb94.js"
+    "static/js/main.110ab729.js"
   ]
 }
