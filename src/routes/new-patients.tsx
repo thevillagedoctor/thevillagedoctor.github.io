@@ -21,6 +21,8 @@ export function NewPatients() {
 					</div>
 					<h2>Make an Appointment</h2>
 					<NewAppointmentText/>
+					<br/>
+					<h3 className="warning"><b>Please note, if you have Medicare, you CANNOT enroll until 1/1/2025</b></h3>
 					<div className='button-container'>
 						<a className="button" href="https://thevillagedoctor.hint.com/signup" target="_blank" rel="noreferrer">New Patient Registration</a>
 						<a className="button" href="./pdfs/Patient Contract December 2024.pdf" target="_blank">View Contract</a>

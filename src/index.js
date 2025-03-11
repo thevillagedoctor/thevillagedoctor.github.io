@@ -4,7 +4,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './index.css';
 import './styles/typical-content.css';
 import './styles/typical-content-mobile.css';
-import { Welcome, About, DirectPrimaryCare, Providers, EstablishedPatients, NewPatients, Insurance, Resources, Contact } from 'routes';
+import { Welcome, About, DirectPrimaryCare, Providers, EstablishedPatients, NewPatients, Insurance, OnlinePayments, Resources, Contact } from 'routes';
 import { App } from 'components';
 import reportWebVitals from './reportWebVitals';
 
@@ -19,7 +19,8 @@ ReactDOM.render(
         <Route path="providers" element={<Providers />} />
         <Route path="established-patients" element={<EstablishedPatients />} />
         <Route path="new-patients" element={<NewPatients />} />
-        <Route path="insurance" element={<Insurance />} />
+        <Route path="online-payments" element={<OnlinePayments />} />
+        {/* <Route path="insurance" element={<Insurance />} /> */}
         <Route path="resources" element={<Resources />} />
         <Route path="contact" element={<Contact />} />
         {/* <Route path="*" element={<Error />} /> */}

@@ -89,8 +89,9 @@ export default class NavBar extends React.Component<navBarProps, navBarState> {
 			this.renderButton('Meet Dr. Grimm', '/providers'),
 			this.renderButton('Established Patients', '/established-patients'),
 			this.renderButton('New Patients', '/new-patients'),
+			this.renderButton('Online Payments', '/online-payments'),
 			this.renderButton('Resources', '/resources'),
-			this.renderButton('Contact Us', '/contact'),
+			this.renderButton('Contact Us/Portal', '/contact'),
 		];
 
 		return (

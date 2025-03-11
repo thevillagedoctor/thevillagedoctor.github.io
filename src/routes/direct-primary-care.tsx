@@ -11,7 +11,11 @@ export function DirectPrimaryCare() {
 				<div className="infoBody">	
                     <div className='paragraph'>
                         <DPCIntroText/>
+						<h3 className="warning"><b>Please note, if you have Medicare, you CANNOT enroll until 1/1/2025</b></h3>
+						<div className='button-container'>
+						<a className="button" href="https://thevillagedoctor.hint.com/signup" target="_blank" rel="noreferrer">New Patient Registration</a>
 						<a className="button" href="./pdfs/Patient Contract December 2024.pdf" target="_blank">View Contract</a>
+					</div>
                     </div>
 					<div className='paragraph'>
 						<h2>The Benefits to our Patients</h2>
@@ -36,7 +40,7 @@ export function DirectPrimaryCare() {
 					</div>
 					<div className='paragraph'>
 						<h2>Medications</h2>
-						<p>If you wish to pay cash for one of your prescribed medications, we will work with a local pharmacy where you can get low cash prices for most common, generic medications. <a className="link" href="https://www.goodrx.com">GoodRx</a> and <a href="https://www.simplecare.come">SimpleCare</a> provide coupons for low-cost options for many medications. Of course, you can continue to use insurance to obtain medications through the pharmacy of your choice.</p>
+						<p>If you wish to pay cash for one of your prescribed medications, we will work with a local pharmacy where you can get low cash prices for most common, generic medications. <a className="link" href="https://www.goodrx.com">GoodRx</a> and <a href="https://www.simplecare.com">SimpleCare</a> provide coupons for low-cost options for many medications. Of course, you can continue to use insurance to obtain medications through the pharmacy of your choice.</p>
 					</div>
 					<div className='paragraph'>
 						<h2>Laboratory Services</h2>

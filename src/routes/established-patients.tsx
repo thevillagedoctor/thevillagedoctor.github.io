@@ -36,14 +36,14 @@ export function EstablishedPatients() {
 							<a className="button" href="https://www.myupdox.com/portal/thevillagedoctor/html/index.html" rel="noreferrer" target={"_blank"}>Updox (Old Patient Portal)</a>
 						</div>
 					</div>
-					<div className='paragraph'>
+					{/* <div className='paragraph'>
 						<h2>Online Payments</h2>
 						<OnlinePaymentText/>
 						<p className='italics'>
 							If you are experiencing financial hardships due to job loss, covid, etc., then please contact the office to work out a payment plan.
 						</p>
 						<a className="button" href="https://pay.balancecollect.com/m/chvfm" rel="noreferrer" target={"_blank"}>Make an Online Payment</a>	
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

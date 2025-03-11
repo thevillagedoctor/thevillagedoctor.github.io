@@ -147,7 +147,11 @@ p a {
 
 p a:hover {
     font-family: "Font-Italic";
-    letter-spacing: 1.4px;
+    letter-spacing: 1.1px;
+}
+
+.warning {
+    font-size: 24px;
 }
 
 @media print {
