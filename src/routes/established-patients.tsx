@@ -32,8 +32,7 @@ export function EstablishedPatients() {
 							or several days during the weekend or holidays.
 						</p>
 						<div className='button-container'>
-							<a className="button" href="https://thevillagedoctor.hint.com/login/request" rel="noreferrer" target={"_blank"}>Hint (New Patient Portal)</a>
-							<a className="button" href="https://www.myupdox.com/portal/thevillagedoctor/html/index.html" rel="noreferrer" target={"_blank"}>Updox (Old Patient Portal)</a>
+							<a className="button" href="https://thevillagedoctor.hint.com/login/request" rel="noreferrer" target={"_blank"}>Hint (Patient Portal)</a>
 						</div>
 					</div>
 					{/* <div className='paragraph'>
